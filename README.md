@@ -87,12 +87,12 @@ python src/face_locking.py
 
 #### PC Vision Node
 Edit `src/face_locking.py`:
-- `TEAM_ID = "sudoers"` (unique team identifier)
+- `TEAM_ID = "ghost_hunters"` (unique team identifier)
 - `MQTT_BROKER = "157.173.101.159"` (VPS IP address)
 
 #### ESP8266 Edge Controller
 Edit `src/esp8266_servo_controller.ino`:
-- `TEAM_ID = "sudoers"` (must match PC)
+- `TEAM_ID = "ghost_hunters"` (must match PC)
 - `MQTT_BROKER = "157.173.101.159"` (VPS IP address)
 - `WIFI_SSID = "RCA"` (WiFi network)
 - `WIFI_PASSWORD = "@RcaNyabihu2023"` (WiFi password)
@@ -120,7 +120,7 @@ ws://157.173.101.159:9002
 ## MQTT Topics and Messages
 
 ### Movement Events (PC → Broker)
-**Topic:** `vision/sudoers/movement`
+**Topic:** `vision/ghost_hunters/movement`
 
 **Payload Example:**
 ```json
@@ -142,7 +142,7 @@ ws://157.173.101.159:9002
 - `NO_FACE`: No target face detected
 
 ### Heartbeat Events (Any Node → Broker)
-**Topic:** `vision/sudoers/heartbeat`
+**Topic:** `vision/ghost_hunters/heartbeat`
 
 **Payload Example:**
 ```json

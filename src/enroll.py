@@ -29,6 +29,11 @@ import pickle
 import os
 
 
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MODELS_DIR = os.path.join(PROJECT_ROOT, "models")
+DATA_DIR = os.path.join(PROJECT_ROOT, "data")
+
+
 
 
 
@@ -66,7 +71,7 @@ detector = cv2.CascadeClassifier(
 
 
 
-base_options = python.BaseOptions(model_asset_path="../models/face_landmarker.task")
+base_options = python.BaseOptions(model_asset_path=os.path.join(MODELS_DIR, "face_landmarker.task"))
 
 
 
@@ -98,7 +103,7 @@ face_mesh = vision.FaceLandmarker.create_from_options(options)
 
 
 
-session = ort.InferenceSession("../models/embedder_arcface.onnx")
+session = ort.InferenceSession(os.path.join(MODELS_DIR, "embedder_arcface.onnx"))
 
 
 
@@ -222,7 +227,7 @@ def preprocess(aligned):
 
 
 
-DB_PATH = "../data/db/face_db.pkl"
+DB_PATH = os.path.join(DATA_DIR, "db", "face_db.pkl")
 
 
 
@@ -267,10 +272,8 @@ else:
 
 
 name = input("Enter identity name: ").strip()
-
-
-
-os.makedirs(f"../data/enroll/{name}", exist_ok=True)
+enroll_dir = os.path.join(DATA_DIR, "enroll", name)
+os.makedirs(enroll_dir, exist_ok=True)
 
 
 
@@ -437,17 +440,8 @@ while True:
 
 
             pts = np.array(
-
-
-
-                [[lm.landmark[i].x * cw, lm.landmark[i].y * ch] for i in INDICES],
-
-
-
+                [[lm[i].x * cw, lm[i].y * ch] for i in INDICES],
                 dtype=np.float32
-
-
-
             )
 
 
@@ -556,7 +550,7 @@ while True:
 
 
 
-            cv2.imwrite(f"../data/enroll/{name}/{count:04d}.jpg", aligned)
+            cv2.imwrite(os.path.join(enroll_dir, f"{count:04d}.jpg"), aligned)
 
 
 

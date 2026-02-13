@@ -413,6 +413,33 @@
         "documentation": {}
     },
     {
+        "label": "PROJECT_ROOT",
+        "kind": 5,
+        "importPath": "src.enroll",
+        "description": "src.enroll",
+        "peekOfCode": "PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\nMODELS_DIR = os.path.join(PROJECT_ROOT, \"models\")\nDATA_DIR = os.path.join(PROJECT_ROOT, \"data\")\n# -----------------------------\n# Models\n# -----------------------------",
+        "detail": "src.enroll",
+        "documentation": {}
+    },
+    {
+        "label": "MODELS_DIR",
+        "kind": 5,
+        "importPath": "src.enroll",
+        "description": "src.enroll",
+        "peekOfCode": "MODELS_DIR = os.path.join(PROJECT_ROOT, \"models\")\nDATA_DIR = os.path.join(PROJECT_ROOT, \"data\")\n# -----------------------------\n# Models\n# -----------------------------",
+        "detail": "src.enroll",
+        "documentation": {}
+    },
+    {
+        "label": "DATA_DIR",
+        "kind": 5,
+        "importPath": "src.enroll",
+        "description": "src.enroll",
+        "peekOfCode": "DATA_DIR = os.path.join(PROJECT_ROOT, \"data\")\n# -----------------------------\n# Models\n# -----------------------------",
+        "detail": "src.enroll",
+        "documentation": {}
+    },
+    {
         "label": "detector",
         "kind": 5,
         "importPath": "src.enroll",
@@ -426,7 +453,7 @@
         "kind": 5,
         "importPath": "src.enroll",
         "description": "src.enroll",
-        "peekOfCode": "base_options = python.BaseOptions(model_asset_path=\"../models/face_landmarker.task\")\noptions = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,\n    num_faces=1",
+        "peekOfCode": "base_options = python.BaseOptions(model_asset_path=os.path.join(MODELS_DIR, \"face_landmarker.task\"))\noptions = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,\n    num_faces=1",
         "detail": "src.enroll",
         "documentation": {}
     },
@@ -444,7 +471,7 @@
         "kind": 5,
         "importPath": "src.enroll",
         "description": "src.enroll",
-        "peekOfCode": "face_mesh = vision.FaceLandmarker.create_from_options(options)\nsession = ort.InferenceSession(\"../models/embedder_arcface.onnx\")\ninput_name = session.get_inputs()[0].name",
+        "peekOfCode": "face_mesh = vision.FaceLandmarker.create_from_options(options)\nsession = ort.InferenceSession(os.path.join(MODELS_DIR, \"embedder_arcface.onnx\"))\ninput_name = session.get_inputs()[0].name",
         "detail": "src.enroll",
         "documentation": {}
     },
@@ -453,7 +480,7 @@
         "kind": 5,
         "importPath": "src.enroll",
         "description": "src.enroll",
-        "peekOfCode": "session = ort.InferenceSession(\"../models/embedder_arcface.onnx\")\ninput_name = session.get_inputs()[0].name\n# -----------------------------\n# Alignment reference points",
+        "peekOfCode": "session = ort.InferenceSession(os.path.join(MODELS_DIR, \"embedder_arcface.onnx\"))\ninput_name = session.get_inputs()[0].name\n# -----------------------------\n# Alignment reference points",
         "detail": "src.enroll",
         "documentation": {}
     },
@@ -489,7 +516,7 @@
         "kind": 5,
         "importPath": "src.enroll",
         "description": "src.enroll",
-        "peekOfCode": "DB_PATH = \"../data/db/face_db.pkl\"\nif os.path.exists(DB_PATH):\n    with open(DB_PATH, 'rb') as f:\n        db = pickle.load(f)",
+        "peekOfCode": "DB_PATH = os.path.join(DATA_DIR, \"db\", \"face_db.pkl\")\nif os.path.exists(DB_PATH):\n    with open(DB_PATH, 'rb') as f:\n        db = pickle.load(f)",
         "detail": "src.enroll",
         "documentation": {}
     },
@@ -498,7 +525,16 @@
         "kind": 5,
         "importPath": "src.enroll",
         "description": "src.enroll",
-        "peekOfCode": "name = input(\"Enter identity name: \").strip()\nos.makedirs(f\"../data/enroll/{name}\", exist_ok=True)\nembeddings = []\ncount = 0",
+        "peekOfCode": "name = input(\"Enter identity name: \").strip()\nenroll_dir = os.path.join(DATA_DIR, \"enroll\", name)\nos.makedirs(enroll_dir, exist_ok=True)\nembeddings = []\ncount = 0\n# Create resizable windows\ncv2.namedWindow(\"Enroll\", cv2.WINDOW_NORMAL)",
+        "detail": "src.enroll",
+        "documentation": {}
+    },
+    {
+        "label": "enroll_dir",
+        "kind": 5,
+        "importPath": "src.enroll",
+        "description": "src.enroll",
+        "peekOfCode": "enroll_dir = os.path.join(DATA_DIR, \"enroll\", name)\nos.makedirs(enroll_dir, exist_ok=True)\nembeddings = []\ncount = 0\n# Create resizable windows\ncv2.namedWindow(\"Enroll\", cv2.WINDOW_NORMAL)\ncv2.namedWindow(\"Saved Aligned\", cv2.WINDOW_NORMAL)",
         "detail": "src.enroll",
         "documentation": {}
     },
