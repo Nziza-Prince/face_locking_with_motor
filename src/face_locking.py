@@ -11,12 +11,13 @@ import traceback
 import paho.mqtt.client as mqtt
 import json
 import time
+from pathlib import Path
 
 # ===================== CONFIGURATION =====================
 THRESHOLD = 0.62  # Face recognition similarity threshold
 TARGET_NAME = input("Enter the identity to lock onto (e.g., your name): ").strip().lower()
 MISS_TOLERANCE = 20  # Frames to tolerate no target before unlock
-MOVEMENT_THRESHOLD = 40  # Adjusted for full-frame pixel scale
+MOVEMENT_THRESHOLD = 20  # Lower threshold for more responsive movement detection
 BLINK_EAR_THRESHOLD = 0.21
 SMILE_CONFIDENCE_THRESHOLD = 0.65
 CONSECUTIVE_SMILE_FRAMES = 3
@@ -33,7 +34,8 @@ MQTT_HEARTBEAT_TOPIC = "vision/Ghost_Hunters/heartbeat"
 SERVO_MIN_ANGLE = 0
 SERVO_MAX_ANGLE = 180
 FRAME_WIDTH = 1280  # Camera frame width
-SERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement
+SERVO_SMOOTHING = 0.65  # Higher response (less lag) for test mode
+CENTER_DEADZONE_RATIO = 0.05  # 5% frame dead zone before MOVE_LEFT/RIGHT
 
 # ===================== PERFORMANCE OPTIMIZATION =====================
 TRACKING_MODE = True  # Start in tracking mode after lock
@@ -46,8 +48,13 @@ BBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head roo
 # ===================== INITIALIZATION =====================
 print("Initializing multi-face detection system...")
 
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+MODELS_DIR = PROJECT_ROOT / "models"
+DATA_DIR = PROJECT_ROOT / "data"
+
 # Initialize FaceLandmarker detector using Tasks API
-base_options = python.BaseOptions(model_asset_path="../models/face_landmarker.task")
+face_landmarker_path = MODELS_DIR / "face_landmarker.task"
+base_options = python.BaseOptions(model_asset_path=str(face_landmarker_path))
 options = vision.FaceLandmarkerOptions(
     base_options=base_options,
     running_mode=vision.RunningMode.IMAGE,
@@ -57,10 +64,10 @@ face_mesh = vision.FaceLandmarker.create_from_options(options)
 
 # Initialize ONNX Runtime session for ArcFace
 try:
-    model_path = "../models/embedder_arcface.onnx"
-    if not os.path.exists(model_path):
+    model_path = MODELS_DIR / "embedder_arcface.onnx"
+    if not model_path.exists():
         raise FileNotFoundError(f"Model not found at {model_path}")
-    session = ort.InferenceSession(model_path)
+    session = ort.InferenceSession(str(model_path))
     print(f"Model loaded successfully from {model_path}")
 except Exception as e:
     print(f"Error loading model: {e}")
@@ -291,9 +298,19 @@ def publish_movement(status, confidence=0.0, face_center_x=None):
 
 # ===================== LOAD FACE DATABASE =====================
 try:
-    db_path = '../data/db/face_db.pkl'
-    with open(db_path, 'rb') as f:
-        db = pickle.load(f)
+    db_dir = DATA_DIR / "db"
+    db_path = db_dir / "face_db.pkl"
+    db_npz_path = db_dir / "face_db.npz"
+
+    if db_path.exists():
+        with open(db_path, 'rb') as f:
+            db = pickle.load(f)
+    elif db_npz_path.exists():
+        npz_db = np.load(db_npz_path, allow_pickle=True)
+        db = {name: [npz_db[name]] for name in npz_db.files}
+    else:
+        raise FileNotFoundError(f"No face DB found at {db_path} or {db_npz_path}")
+
     reference = {}
     for name, embs in db.items():
         if len(embs) > 0:
@@ -504,7 +521,7 @@ while True:
             locked_start = datetime.now()
             miss_count = 0
             timestamp_str = datetime.now().strftime("%Y%m%d_%H%M%S")
-            history_file = f"../data/{TARGET_NAME}_history_{timestamp_str}.txt"
+            history_file = DATA_DIR / f"{TARGET_NAME}_history_{timestamp_str}.txt"
             action_detector.update_baseline(locked_face['lm'], h_frame, w_frame)
             with open(history_file, 'w') as f:
                 f.write(f"Face locking started for {TARGET_NAME.capitalize()} at {datetime.now()}\n")
@@ -532,7 +549,7 @@ while True:
 
         # Determine movement status based on face position
         frame_center_x = w_frame // 2
-        threshold = w_frame // 10  # 10% of frame width as dead zone
+        threshold = int(w_frame * CENTER_DEADZONE_RATIO)
 
         if face_center_x < frame_center_x - threshold:
             status = "MOVE_LEFT"

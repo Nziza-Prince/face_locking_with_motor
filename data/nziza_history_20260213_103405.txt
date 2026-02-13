@@ -1,0 +1,17 @@
+Face locking started for Nziza at 2026-02-13 10:34:05.622261
+Initial similarity: 0.6247
+--------------------------------------------------
+10:34:08.068 | moved left (65px)
+10:34:24.963 | moved left (89px)
+10:34:26.806 | moved right (119px)
+10:34:32.267 | moved left (108px)
+10:34:33.770 | moved right (79px)
+10:34:37.581 | smile (score: 0.80)
+10:34:38.176 | smile (score: 0.80)
+10:34:38.790 | smile (score: 0.80)
+10:34:39.560 | smile (score: 0.77)
+10:34:40.120 | smile (score: 0.78)
+10:34:40.674 | smile (score: 0.75)
+
+Lock released at 2026-02-13 10:34:50.821500
+Tracking duration: 0:00:45

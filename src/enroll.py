@@ -633,7 +633,7 @@ while True:
 
 
 
-key = cv2.waitKey(1) & 0xFF
+    key = cv2.waitKey(1) & 0xFF
 
     if key == ord('q') or key == 27:  # q OR ESC
         print("Exiting...")
@@ -645,10 +645,6 @@ key = cv2.waitKey(1) & 0xFF
 
     if key == ord('s'):  # s
         print("Saving...")
-        break
-
-    if cv2.getWindowProperty('Enroll', cv2.WND_PROP_VISIBLE) < 1:
-        print("Window closed")
         break
 
 

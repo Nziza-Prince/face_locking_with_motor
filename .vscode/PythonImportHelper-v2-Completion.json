@@ -262,6 +262,14 @@
         "documentation": {}
     },
     {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "asyncio",
         "kind": 6,
         "isExtraImport": true,
@@ -518,15 +526,6 @@
         "importPath": "src.enroll",
         "description": "src.enroll",
         "peekOfCode": "cap = cv2.VideoCapture(0)\nprint(\"Look at camera. Auto-capture on good face. Aim for 15+ samples. Press Q to finish.\")\n# -----------------------------",
-        "detail": "src.enroll",
-        "documentation": {}
-    },
-    {
-        "label": "key",
-        "kind": 5,
-        "importPath": "src.enroll",
-        "description": "src.enroll",
-        "peekOfCode": "key = cv2.waitKey(1) & 0xFF\n    if key == ord('q') or key == 27:  # q OR ESC\n        print(\"Exiting...\")\n        break\n    if cv2.getWindowProperty('Enroll', cv2.WND_PROP_VISIBLE) < 1:\n        print(\"Window closed\")\n        break\n    if key == ord('s'):  # s\n        print(\"Saving...\")\n        break",
         "detail": "src.enroll",
         "documentation": {}
     },
@@ -1111,7 +1110,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "THRESHOLD = 0.62  # Face recognition similarity threshold\nTARGET_NAME = input(\"Enter the identity to lock onto (e.g., your name): \").strip().lower()\nMISS_TOLERANCE = 20  # Frames to tolerate no target before unlock\nMOVEMENT_THRESHOLD = 40  # Adjusted for full-frame pixel scale\nBLINK_EAR_THRESHOLD = 0.21\nSMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"ghost_hunters\"  # Must match controller/backend team",
+        "peekOfCode": "THRESHOLD = 0.62  # Face recognition similarity threshold\nTARGET_NAME = input(\"Enter the identity to lock onto (e.g., your name): \").strip().lower()\nMISS_TOLERANCE = 20  # Frames to tolerate no target before unlock\nMOVEMENT_THRESHOLD = 20  # Lower threshold for more responsive movement detection\nBLINK_EAR_THRESHOLD = 0.21\nSMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"ghost_hunters\"  # Must match controller/backend team",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1120,7 +1119,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "TARGET_NAME = input(\"Enter the identity to lock onto (e.g., your name): \").strip().lower()\nMISS_TOLERANCE = 20  # Frames to tolerate no target before unlock\nMOVEMENT_THRESHOLD = 40  # Adjusted for full-frame pixel scale\nBLINK_EAR_THRESHOLD = 0.21\nSMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"ghost_hunters\"  # Must match controller/backend team\nMQTT_BROKER = \"157.173.101.159\"  # MQTT broker host",
+        "peekOfCode": "TARGET_NAME = input(\"Enter the identity to lock onto (e.g., your name): \").strip().lower()\nMISS_TOLERANCE = 20  # Frames to tolerate no target before unlock\nMOVEMENT_THRESHOLD = 20  # Lower threshold for more responsive movement detection\nBLINK_EAR_THRESHOLD = 0.21\nSMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"ghost_hunters\"  # Must match controller/backend team\nMQTT_BROKER = \"157.173.101.159\"  # MQTT broker host",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1129,7 +1128,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "MISS_TOLERANCE = 20  # Frames to tolerate no target before unlock\nMOVEMENT_THRESHOLD = 40  # Adjusted for full-frame pixel scale\nBLINK_EAR_THRESHOLD = 0.21\nSMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"ghost_hunters\"  # Must match controller/backend team\nMQTT_BROKER = \"157.173.101.159\"  # MQTT broker host\nMQTT_PORT = 1883",
+        "peekOfCode": "MISS_TOLERANCE = 20  # Frames to tolerate no target before unlock\nMOVEMENT_THRESHOLD = 20  # Lower threshold for more responsive movement detection\nBLINK_EAR_THRESHOLD = 0.21\nSMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"ghost_hunters\"  # Must match controller/backend team\nMQTT_BROKER = \"157.173.101.159\"  # MQTT broker host\nMQTT_PORT = 1883",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1138,7 +1137,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "MOVEMENT_THRESHOLD = 40  # Adjusted for full-frame pixel scale\nBLINK_EAR_THRESHOLD = 0.21\nSMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"ghost_hunters\"  # Must match controller/backend team\nMQTT_BROKER = \"157.173.101.159\"  # MQTT broker host\nMQTT_PORT = 1883\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"",
+        "peekOfCode": "MOVEMENT_THRESHOLD = 20  # Lower threshold for more responsive movement detection\nBLINK_EAR_THRESHOLD = 0.21\nSMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"ghost_hunters\"  # Must match controller/backend team\nMQTT_BROKER = \"157.173.101.159\"  # MQTT broker host\nMQTT_PORT = 1883\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1183,7 +1182,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "TEAM_ID = \"ghost_hunters\"  # Must match controller/backend team\nMQTT_BROKER = \"157.173.101.159\"  # MQTT broker host\nMQTT_PORT = 1883\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement",
+        "peekOfCode": "TEAM_ID = \"ghost_hunters\"  # Must match controller/backend team\nMQTT_BROKER = \"157.173.101.159\"  # MQTT broker host\nMQTT_PORT = 1883\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.65  # Higher response (less lag) for test mode",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1192,7 +1191,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "MQTT_BROKER = \"157.173.101.159\"  # MQTT broker host\nMQTT_PORT = 1883\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================",
+        "peekOfCode": "MQTT_BROKER = \"157.173.101.159\"  # MQTT broker host\nMQTT_PORT = 1883\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.65  # Higher response (less lag) for test mode\nCENTER_DEADZONE_RATIO = 0.05  # 5% frame dead zone before MOVE_LEFT/RIGHT",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1201,7 +1200,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "MQTT_PORT = 1883\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock",
+        "peekOfCode": "MQTT_PORT = 1883\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.65  # Higher response (less lag) for test mode\nCENTER_DEADZONE_RATIO = 0.05  # 5% frame dead zone before MOVE_LEFT/RIGHT\n# ===================== PERFORMANCE OPTIMIZATION =====================",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1210,7 +1209,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "MQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking",
+        "peekOfCode": "MQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.65  # Higher response (less lag) for test mode\nCENTER_DEADZONE_RATIO = 0.05  # 5% frame dead zone before MOVE_LEFT/RIGHT\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1219,7 +1218,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "MQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking\nMIN_FACE_SIZE = 50  # Minimum face size to process",
+        "peekOfCode": "MQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.65  # Higher response (less lag) for test mode\nCENTER_DEADZONE_RATIO = 0.05  # 5% frame dead zone before MOVE_LEFT/RIGHT\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1228,7 +1227,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "SERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking\nMIN_FACE_SIZE = 50  # Minimum face size to process\nMAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing",
+        "peekOfCode": "SERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.65  # Higher response (less lag) for test mode\nCENTER_DEADZONE_RATIO = 0.05  # 5% frame dead zone before MOVE_LEFT/RIGHT\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking\nMIN_FACE_SIZE = 50  # Minimum face size to process\nMAX_FACE_SIZE = 500  # Maximum face size to process",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1237,7 +1236,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "SERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking\nMIN_FACE_SIZE = 50  # Minimum face size to process\nMAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)",
+        "peekOfCode": "SERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.65  # Higher response (less lag) for test mode\nCENTER_DEADZONE_RATIO = 0.05  # 5% frame dead zone before MOVE_LEFT/RIGHT\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking\nMIN_FACE_SIZE = 50  # Minimum face size to process\nMAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1246,7 +1245,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "FRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking\nMIN_FACE_SIZE = 50  # Minimum face size to process\nMAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================",
+        "peekOfCode": "FRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.65  # Higher response (less lag) for test mode\nCENTER_DEADZONE_RATIO = 0.05  # 5% frame dead zone before MOVE_LEFT/RIGHT\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking\nMIN_FACE_SIZE = 50  # Minimum face size to process\nMAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1255,7 +1254,16 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "SERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking\nMIN_FACE_SIZE = 50  # Minimum face size to process\nMAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================\nprint(\"Initializing multi-face detection system...\")",
+        "peekOfCode": "SERVO_SMOOTHING = 0.65  # Higher response (less lag) for test mode\nCENTER_DEADZONE_RATIO = 0.05  # 5% frame dead zone before MOVE_LEFT/RIGHT\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking\nMIN_FACE_SIZE = 50  # Minimum face size to process\nMAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "CENTER_DEADZONE_RATIO",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "CENTER_DEADZONE_RATIO = 0.05  # 5% frame dead zone before MOVE_LEFT/RIGHT\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking\nMIN_FACE_SIZE = 50  # Minimum face size to process\nMAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================\nprint(\"Initializing multi-face detection system...\")",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1264,7 +1272,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "TRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking\nMIN_FACE_SIZE = 50  # Minimum face size to process\nMAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================\nprint(\"Initializing multi-face detection system...\")\n# Initialize FaceLandmarker detector using Tasks API\nbase_options = python.BaseOptions(model_asset_path=\"../models/face_landmarker.task\")",
+        "peekOfCode": "TRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking\nMIN_FACE_SIZE = 50  # Minimum face size to process\nMAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================\nprint(\"Initializing multi-face detection system...\")\nPROJECT_ROOT = Path(__file__).resolve().parents[1]\nMODELS_DIR = PROJECT_ROOT / \"models\"",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1273,7 +1281,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "PROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking\nMIN_FACE_SIZE = 50  # Minimum face size to process\nMAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================\nprint(\"Initializing multi-face detection system...\")\n# Initialize FaceLandmarker detector using Tasks API\nbase_options = python.BaseOptions(model_asset_path=\"../models/face_landmarker.task\")\noptions = vision.FaceLandmarkerOptions(",
+        "peekOfCode": "PROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking\nMIN_FACE_SIZE = 50  # Minimum face size to process\nMAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================\nprint(\"Initializing multi-face detection system...\")\nPROJECT_ROOT = Path(__file__).resolve().parents[1]\nMODELS_DIR = PROJECT_ROOT / \"models\"\nDATA_DIR = PROJECT_ROOT / \"data\"",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1282,7 +1290,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "MIN_FACE_SIZE = 50  # Minimum face size to process\nMAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================\nprint(\"Initializing multi-face detection system...\")\n# Initialize FaceLandmarker detector using Tasks API\nbase_options = python.BaseOptions(model_asset_path=\"../models/face_landmarker.task\")\noptions = vision.FaceLandmarkerOptions(\n    base_options=base_options,",
+        "peekOfCode": "MIN_FACE_SIZE = 50  # Minimum face size to process\nMAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================\nprint(\"Initializing multi-face detection system...\")\nPROJECT_ROOT = Path(__file__).resolve().parents[1]\nMODELS_DIR = PROJECT_ROOT / \"models\"\nDATA_DIR = PROJECT_ROOT / \"data\"\n# Initialize FaceLandmarker detector using Tasks API",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1291,7 +1299,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "MAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================\nprint(\"Initializing multi-face detection system...\")\n# Initialize FaceLandmarker detector using Tasks API\nbase_options = python.BaseOptions(model_asset_path=\"../models/face_landmarker.task\")\noptions = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,",
+        "peekOfCode": "MAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================\nprint(\"Initializing multi-face detection system...\")\nPROJECT_ROOT = Path(__file__).resolve().parents[1]\nMODELS_DIR = PROJECT_ROOT / \"models\"\nDATA_DIR = PROJECT_ROOT / \"data\"\n# Initialize FaceLandmarker detector using Tasks API\nface_landmarker_path = MODELS_DIR / \"face_landmarker.task\"",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1300,7 +1308,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "STABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================\nprint(\"Initializing multi-face detection system...\")\n# Initialize FaceLandmarker detector using Tasks API\nbase_options = python.BaseOptions(model_asset_path=\"../models/face_landmarker.task\")\noptions = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,\n    num_faces=MAX_FACES",
+        "peekOfCode": "STABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================\nprint(\"Initializing multi-face detection system...\")\nPROJECT_ROOT = Path(__file__).resolve().parents[1]\nMODELS_DIR = PROJECT_ROOT / \"models\"\nDATA_DIR = PROJECT_ROOT / \"data\"\n# Initialize FaceLandmarker detector using Tasks API\nface_landmarker_path = MODELS_DIR / \"face_landmarker.task\"\nbase_options = python.BaseOptions(model_asset_path=str(face_landmarker_path))",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1309,7 +1317,43 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "BBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================\nprint(\"Initializing multi-face detection system...\")\n# Initialize FaceLandmarker detector using Tasks API\nbase_options = python.BaseOptions(model_asset_path=\"../models/face_landmarker.task\")\noptions = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,\n    num_faces=MAX_FACES\n)",
+        "peekOfCode": "BBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================\nprint(\"Initializing multi-face detection system...\")\nPROJECT_ROOT = Path(__file__).resolve().parents[1]\nMODELS_DIR = PROJECT_ROOT / \"models\"\nDATA_DIR = PROJECT_ROOT / \"data\"\n# Initialize FaceLandmarker detector using Tasks API\nface_landmarker_path = MODELS_DIR / \"face_landmarker.task\"\nbase_options = python.BaseOptions(model_asset_path=str(face_landmarker_path))\noptions = vision.FaceLandmarkerOptions(",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "PROJECT_ROOT",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "PROJECT_ROOT = Path(__file__).resolve().parents[1]\nMODELS_DIR = PROJECT_ROOT / \"models\"\nDATA_DIR = PROJECT_ROOT / \"data\"\n# Initialize FaceLandmarker detector using Tasks API\nface_landmarker_path = MODELS_DIR / \"face_landmarker.task\"\nbase_options = python.BaseOptions(model_asset_path=str(face_landmarker_path))\noptions = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,\n    num_faces=MAX_FACES",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "MODELS_DIR",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "MODELS_DIR = PROJECT_ROOT / \"models\"\nDATA_DIR = PROJECT_ROOT / \"data\"\n# Initialize FaceLandmarker detector using Tasks API\nface_landmarker_path = MODELS_DIR / \"face_landmarker.task\"\nbase_options = python.BaseOptions(model_asset_path=str(face_landmarker_path))\noptions = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,\n    num_faces=MAX_FACES\n)",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "DATA_DIR",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "DATA_DIR = PROJECT_ROOT / \"data\"\n# Initialize FaceLandmarker detector using Tasks API\nface_landmarker_path = MODELS_DIR / \"face_landmarker.task\"\nbase_options = python.BaseOptions(model_asset_path=str(face_landmarker_path))\noptions = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,\n    num_faces=MAX_FACES\n)\nface_mesh = vision.FaceLandmarker.create_from_options(options)",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "face_landmarker_path",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "face_landmarker_path = MODELS_DIR / \"face_landmarker.task\"\nbase_options = python.BaseOptions(model_asset_path=str(face_landmarker_path))\noptions = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,\n    num_faces=MAX_FACES\n)\nface_mesh = vision.FaceLandmarker.create_from_options(options)\n# Initialize ONNX Runtime session for ArcFace\ntry:",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1318,7 +1362,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "base_options = python.BaseOptions(model_asset_path=\"../models/face_landmarker.task\")\noptions = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,\n    num_faces=MAX_FACES\n)\nface_mesh = vision.FaceLandmarker.create_from_options(options)\n# Initialize ONNX Runtime session for ArcFace\ntry:\n    model_path = \"../models/embedder_arcface.onnx\"",
+        "peekOfCode": "base_options = python.BaseOptions(model_asset_path=str(face_landmarker_path))\noptions = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,\n    num_faces=MAX_FACES\n)\nface_mesh = vision.FaceLandmarker.create_from_options(options)\n# Initialize ONNX Runtime session for ArcFace\ntry:\n    model_path = MODELS_DIR / \"embedder_arcface.onnx\"",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1327,7 +1371,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "options = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,\n    num_faces=MAX_FACES\n)\nface_mesh = vision.FaceLandmarker.create_from_options(options)\n# Initialize ONNX Runtime session for ArcFace\ntry:\n    model_path = \"../models/embedder_arcface.onnx\"\n    if not os.path.exists(model_path):",
+        "peekOfCode": "options = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,\n    num_faces=MAX_FACES\n)\nface_mesh = vision.FaceLandmarker.create_from_options(options)\n# Initialize ONNX Runtime session for ArcFace\ntry:\n    model_path = MODELS_DIR / \"embedder_arcface.onnx\"\n    if not model_path.exists():",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1336,7 +1380,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "face_mesh = vision.FaceLandmarker.create_from_options(options)\n# Initialize ONNX Runtime session for ArcFace\ntry:\n    model_path = \"../models/embedder_arcface.onnx\"\n    if not os.path.exists(model_path):\n        raise FileNotFoundError(f\"Model not found at {model_path}\")\n    session = ort.InferenceSession(model_path)\n    print(f\"Model loaded successfully from {model_path}\")\nexcept Exception as e:\n    print(f\"Error loading model: {e}\")",
+        "peekOfCode": "face_mesh = vision.FaceLandmarker.create_from_options(options)\n# Initialize ONNX Runtime session for ArcFace\ntry:\n    model_path = MODELS_DIR / \"embedder_arcface.onnx\"\n    if not model_path.exists():\n        raise FileNotFoundError(f\"Model not found at {model_path}\")\n    session = ort.InferenceSession(str(model_path))\n    print(f\"Model loaded successfully from {model_path}\")\nexcept Exception as e:\n    print(f\"Error loading model: {e}\")",
         "detail": "src.face_locking",
         "documentation": {}
     },
