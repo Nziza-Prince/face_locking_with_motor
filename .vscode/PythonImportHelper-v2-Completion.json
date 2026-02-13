@@ -1,0 +1,1964 @@
+[
+    {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "mediapipe",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mediapipe",
+        "description": "mediapipe",
+        "detail": "mediapipe",
+        "documentation": {}
+    },
+    {
+        "label": "onnxruntime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "onnxruntime",
+        "description": "onnxruntime",
+        "detail": "onnxruntime",
+        "documentation": {}
+    },
+    {
+        "label": "python",
+        "importPath": "mediapipe.tasks",
+        "description": "mediapipe.tasks",
+        "isExtraImport": true,
+        "detail": "mediapipe.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "python",
+        "importPath": "mediapipe.tasks",
+        "description": "mediapipe.tasks",
+        "isExtraImport": true,
+        "detail": "mediapipe.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "python",
+        "importPath": "mediapipe.tasks",
+        "description": "mediapipe.tasks",
+        "isExtraImport": true,
+        "detail": "mediapipe.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "vision",
+        "importPath": "mediapipe.tasks.python",
+        "description": "mediapipe.tasks.python",
+        "isExtraImport": true,
+        "detail": "mediapipe.tasks.python",
+        "documentation": {}
+    },
+    {
+        "label": "vision",
+        "importPath": "mediapipe.tasks.python",
+        "description": "mediapipe.tasks.python",
+        "isExtraImport": true,
+        "detail": "mediapipe.tasks.python",
+        "documentation": {}
+    },
+    {
+        "label": "vision",
+        "importPath": "mediapipe.tasks.python",
+        "description": "mediapipe.tasks.python",
+        "isExtraImport": true,
+        "detail": "mediapipe.tasks.python",
+        "documentation": {}
+    },
+    {
+        "label": "pickle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pickle",
+        "description": "pickle",
+        "detail": "pickle",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "machine",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "machine",
+        "description": "machine",
+        "detail": "machine",
+        "documentation": {}
+    },
+    {
+        "label": "Pin",
+        "importPath": "machine",
+        "description": "machine",
+        "isExtraImport": true,
+        "detail": "machine",
+        "documentation": {}
+    },
+    {
+        "label": "PWM",
+        "importPath": "machine",
+        "description": "machine",
+        "isExtraImport": true,
+        "detail": "machine",
+        "documentation": {}
+    },
+    {
+        "label": "Pin",
+        "importPath": "machine",
+        "description": "machine",
+        "isExtraImport": true,
+        "detail": "machine",
+        "documentation": {}
+    },
+    {
+        "label": "PWM",
+        "importPath": "machine",
+        "description": "machine",
+        "isExtraImport": true,
+        "detail": "machine",
+        "documentation": {}
+    },
+    {
+        "label": "Pin",
+        "importPath": "machine",
+        "description": "machine",
+        "isExtraImport": true,
+        "detail": "machine",
+        "documentation": {}
+    },
+    {
+        "label": "PWM",
+        "importPath": "machine",
+        "description": "machine",
+        "isExtraImport": true,
+        "detail": "machine",
+        "documentation": {}
+    },
+    {
+        "label": "Pin",
+        "importPath": "machine",
+        "description": "machine",
+        "isExtraImport": true,
+        "detail": "machine",
+        "documentation": {}
+    },
+    {
+        "label": "PWM",
+        "importPath": "machine",
+        "description": "machine",
+        "isExtraImport": true,
+        "detail": "machine",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "network",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "network",
+        "description": "network",
+        "detail": "network",
+        "documentation": {}
+    },
+    {
+        "label": "ujson",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ujson",
+        "description": "ujson",
+        "detail": "ujson",
+        "documentation": {}
+    },
+    {
+        "label": "MQTTClient",
+        "importPath": "umqtt.simple",
+        "description": "umqtt.simple",
+        "isExtraImport": true,
+        "detail": "umqtt.simple",
+        "documentation": {}
+    },
+    {
+        "label": "MQTTClient",
+        "importPath": "umqtt.simple",
+        "description": "umqtt.simple",
+        "isExtraImport": true,
+        "detail": "umqtt.simple",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "paho.mqtt.client",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "paho.mqtt.client",
+        "description": "paho.mqtt.client",
+        "detail": "paho.mqtt.client",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "websockets",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "websockets",
+        "description": "websockets",
+        "detail": "websockets",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "cap",
+        "kind": 5,
+        "importPath": "src.camera",
+        "description": "src.camera",
+        "peekOfCode": "cap = cv2.VideoCapture(0)\n# Create resizable window\ncv2.namedWindow('Camera Test', cv2.WINDOW_NORMAL)\ncv2.resizeWindow('Camera Test', 1280, 720)  # Start with 720p\nprint(\"Camera window is resizable!\")\nprint(\"Use mouse to resize or maximize the window\")\nprint(\"Press 'q' to quit\")\nwhile True:\n    ret, frame = cap.read()\n    if not ret:",
+        "detail": "src.camera",
+        "documentation": {}
+    },
+    {
+        "label": "detector",
+        "kind": 5,
+        "importPath": "src.detect",
+        "description": "src.detect",
+        "peekOfCode": "detector = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')\ncap = cv2.VideoCapture(0)\nwhile True:\n    ret, frame = cap.read()\n    if not ret:\n        break\n    frame = cv2.flip(frame, 1)\n    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)\n    faces = detector.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(100, 100))\n    for (x, y, w, h) in faces:",
+        "detail": "src.detect",
+        "documentation": {}
+    },
+    {
+        "label": "cap",
+        "kind": 5,
+        "importPath": "src.detect",
+        "description": "src.detect",
+        "peekOfCode": "cap = cv2.VideoCapture(0)\nwhile True:\n    ret, frame = cap.read()\n    if not ret:\n        break\n    frame = cv2.flip(frame, 1)\n    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)\n    faces = detector.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(100, 100))\n    for (x, y, w, h) in faces:\n        cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)",
+        "detail": "src.detect",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess",
+        "kind": 2,
+        "importPath": "src.embed",
+        "description": "src.embed",
+        "peekOfCode": "def preprocess(aligned):\n    img = aligned.astype(np.float32)\n    img = (img - 127.5) / 127.5\n    img = np.transpose(img, (2, 0, 1))\n    img = np.expand_dims(img, axis=0)\n    return img\ncap = cv2.VideoCapture(0)\nwhile True:\n    ret, frame = cap.read()\n    if not ret:",
+        "detail": "src.embed",
+        "documentation": {}
+    },
+    {
+        "label": "detector",
+        "kind": 5,
+        "importPath": "src.embed",
+        "description": "src.embed",
+        "peekOfCode": "detector = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')\nmp_face_mesh = mp.solutions.face_mesh\nface_mesh = mp_face_mesh.FaceMesh(static_image_mode=False, max_num_faces=1)\nsession = ort.InferenceSession(\"../models/embedder_arcface.onnx\")\nREF_POINTS = np.array([\n    [38.2946, 51.6963],\n    [73.5318, 51.5014],\n    [56.0252, 71.7366],\n    [41.5493, 92.3655],\n    [70.7299, 92.2041]",
+        "detail": "src.embed",
+        "documentation": {}
+    },
+    {
+        "label": "mp_face_mesh",
+        "kind": 5,
+        "importPath": "src.embed",
+        "description": "src.embed",
+        "peekOfCode": "mp_face_mesh = mp.solutions.face_mesh\nface_mesh = mp_face_mesh.FaceMesh(static_image_mode=False, max_num_faces=1)\nsession = ort.InferenceSession(\"../models/embedder_arcface.onnx\")\nREF_POINTS = np.array([\n    [38.2946, 51.6963],\n    [73.5318, 51.5014],\n    [56.0252, 71.7366],\n    [41.5493, 92.3655],\n    [70.7299, 92.2041]\n], dtype=np.float32)",
+        "detail": "src.embed",
+        "documentation": {}
+    },
+    {
+        "label": "face_mesh",
+        "kind": 5,
+        "importPath": "src.embed",
+        "description": "src.embed",
+        "peekOfCode": "face_mesh = mp_face_mesh.FaceMesh(static_image_mode=False, max_num_faces=1)\nsession = ort.InferenceSession(\"../models/embedder_arcface.onnx\")\nREF_POINTS = np.array([\n    [38.2946, 51.6963],\n    [73.5318, 51.5014],\n    [56.0252, 71.7366],\n    [41.5493, 92.3655],\n    [70.7299, 92.2041]\n], dtype=np.float32)\nINDICES = [33, 263, 1, 61, 291]",
+        "detail": "src.embed",
+        "documentation": {}
+    },
+    {
+        "label": "session",
+        "kind": 5,
+        "importPath": "src.embed",
+        "description": "src.embed",
+        "peekOfCode": "session = ort.InferenceSession(\"../models/embedder_arcface.onnx\")\nREF_POINTS = np.array([\n    [38.2946, 51.6963],\n    [73.5318, 51.5014],\n    [56.0252, 71.7366],\n    [41.5493, 92.3655],\n    [70.7299, 92.2041]\n], dtype=np.float32)\nINDICES = [33, 263, 1, 61, 291]\ndef preprocess(aligned):",
+        "detail": "src.embed",
+        "documentation": {}
+    },
+    {
+        "label": "REF_POINTS",
+        "kind": 5,
+        "importPath": "src.embed",
+        "description": "src.embed",
+        "peekOfCode": "REF_POINTS = np.array([\n    [38.2946, 51.6963],\n    [73.5318, 51.5014],\n    [56.0252, 71.7366],\n    [41.5493, 92.3655],\n    [70.7299, 92.2041]\n], dtype=np.float32)\nINDICES = [33, 263, 1, 61, 291]\ndef preprocess(aligned):\n    img = aligned.astype(np.float32)",
+        "detail": "src.embed",
+        "documentation": {}
+    },
+    {
+        "label": "INDICES",
+        "kind": 5,
+        "importPath": "src.embed",
+        "description": "src.embed",
+        "peekOfCode": "INDICES = [33, 263, 1, 61, 291]\ndef preprocess(aligned):\n    img = aligned.astype(np.float32)\n    img = (img - 127.5) / 127.5\n    img = np.transpose(img, (2, 0, 1))\n    img = np.expand_dims(img, axis=0)\n    return img\ncap = cv2.VideoCapture(0)\nwhile True:\n    ret, frame = cap.read()",
+        "detail": "src.embed",
+        "documentation": {}
+    },
+    {
+        "label": "cap",
+        "kind": 5,
+        "importPath": "src.embed",
+        "description": "src.embed",
+        "peekOfCode": "cap = cv2.VideoCapture(0)\nwhile True:\n    ret, frame = cap.read()\n    if not ret:\n        break\n    frame = cv2.flip(frame, 1)\n    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)\n    faces = detector.detectMultiScale(gray, 1.1, 5, minSize=(100, 100))\n    if len(faces) > 0:\n        x, y, w, h = faces[0]",
+        "detail": "src.embed",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess",
+        "kind": 2,
+        "importPath": "src.enroll",
+        "description": "src.enroll",
+        "peekOfCode": "def preprocess(aligned):\n    img = aligned.astype(np.float32)\n    img = (img - 127.5) / 127.5\n    img = np.transpose(img, (2, 0, 1))\n    img = np.expand_dims(img, axis=0)",
+        "detail": "src.enroll",
+        "documentation": {}
+    },
+    {
+        "label": "detector",
+        "kind": 5,
+        "importPath": "src.enroll",
+        "description": "src.enroll",
+        "peekOfCode": "detector = cv2.CascadeClassifier(\n    cv2.data.haarcascades + 'haarcascade_frontalface_default.xml'\n)\n# Create FaceLandmarker detector using Tasks API",
+        "detail": "src.enroll",
+        "documentation": {}
+    },
+    {
+        "label": "base_options",
+        "kind": 5,
+        "importPath": "src.enroll",
+        "description": "src.enroll",
+        "peekOfCode": "base_options = python.BaseOptions(model_asset_path=\"../models/face_landmarker.task\")\noptions = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,\n    num_faces=1",
+        "detail": "src.enroll",
+        "documentation": {}
+    },
+    {
+        "label": "options",
+        "kind": 5,
+        "importPath": "src.enroll",
+        "description": "src.enroll",
+        "peekOfCode": "options = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,\n    num_faces=1\n)",
+        "detail": "src.enroll",
+        "documentation": {}
+    },
+    {
+        "label": "face_mesh",
+        "kind": 5,
+        "importPath": "src.enroll",
+        "description": "src.enroll",
+        "peekOfCode": "face_mesh = vision.FaceLandmarker.create_from_options(options)\nsession = ort.InferenceSession(\"../models/embedder_arcface.onnx\")\ninput_name = session.get_inputs()[0].name",
+        "detail": "src.enroll",
+        "documentation": {}
+    },
+    {
+        "label": "session",
+        "kind": 5,
+        "importPath": "src.enroll",
+        "description": "src.enroll",
+        "peekOfCode": "session = ort.InferenceSession(\"../models/embedder_arcface.onnx\")\ninput_name = session.get_inputs()[0].name\n# -----------------------------\n# Alignment reference points",
+        "detail": "src.enroll",
+        "documentation": {}
+    },
+    {
+        "label": "input_name",
+        "kind": 5,
+        "importPath": "src.enroll",
+        "description": "src.enroll",
+        "peekOfCode": "input_name = session.get_inputs()[0].name\n# -----------------------------\n# Alignment reference points\n# -----------------------------",
+        "detail": "src.enroll",
+        "documentation": {}
+    },
+    {
+        "label": "REF_POINTS",
+        "kind": 5,
+        "importPath": "src.enroll",
+        "description": "src.enroll",
+        "peekOfCode": "REF_POINTS = np.array([\n    [38.2946, 51.6963],\n    [73.5318, 51.5014],\n    [56.0252, 71.7366],\n    [41.5493, 92.3655],",
+        "detail": "src.enroll",
+        "documentation": {}
+    },
+    {
+        "label": "INDICES",
+        "kind": 5,
+        "importPath": "src.enroll",
+        "description": "src.enroll",
+        "peekOfCode": "INDICES = [33, 263, 1, 61, 291]  # eye, eye, nose, mouth, mouth\n# -----------------------------\n# Preprocess for ArcFace",
+        "detail": "src.enroll",
+        "documentation": {}
+    },
+    {
+        "label": "DB_PATH",
+        "kind": 5,
+        "importPath": "src.enroll",
+        "description": "src.enroll",
+        "peekOfCode": "DB_PATH = \"../data/db/face_db.pkl\"\nif os.path.exists(DB_PATH):\n    with open(DB_PATH, 'rb') as f:\n        db = pickle.load(f)",
+        "detail": "src.enroll",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "src.enroll",
+        "description": "src.enroll",
+        "peekOfCode": "name = input(\"Enter identity name: \").strip()\nos.makedirs(f\"../data/enroll/{name}\", exist_ok=True)\nembeddings = []\ncount = 0",
+        "detail": "src.enroll",
+        "documentation": {}
+    },
+    {
+        "label": "embeddings",
+        "kind": 5,
+        "importPath": "src.enroll",
+        "description": "src.enroll",
+        "peekOfCode": "embeddings = []\ncount = 0\n# Create resizable windows\ncv2.namedWindow(\"Enroll\", cv2.WINDOW_NORMAL)\ncv2.namedWindow(\"Saved Aligned\", cv2.WINDOW_NORMAL)\ncv2.resizeWindow(\"Enroll\", 1280, 720)\ncv2.resizeWindow(\"Saved Aligned\", 224, 224)\ncap = cv2.VideoCapture(0)",
+        "detail": "src.enroll",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "src.enroll",
+        "description": "src.enroll",
+        "peekOfCode": "count = 0\n# Create resizable windows\ncv2.namedWindow(\"Enroll\", cv2.WINDOW_NORMAL)\ncv2.namedWindow(\"Saved Aligned\", cv2.WINDOW_NORMAL)\ncv2.resizeWindow(\"Enroll\", 1280, 720)\ncv2.resizeWindow(\"Saved Aligned\", 224, 224)\ncap = cv2.VideoCapture(0)\nprint(\"Look at camera. Auto-capture on good face. Aim for 15+ samples. Press Q to finish.\")",
+        "detail": "src.enroll",
+        "documentation": {}
+    },
+    {
+        "label": "cap",
+        "kind": 5,
+        "importPath": "src.enroll",
+        "description": "src.enroll",
+        "peekOfCode": "cap = cv2.VideoCapture(0)\nprint(\"Look at camera. Auto-capture on good face. Aim for 15+ samples. Press Q to finish.\")\n# -----------------------------",
+        "detail": "src.enroll",
+        "documentation": {}
+    },
+    {
+        "label": "key",
+        "kind": 5,
+        "importPath": "src.enroll",
+        "description": "src.enroll",
+        "peekOfCode": "key = cv2.waitKey(1) & 0xFF\n    if key == ord('q') or key == 27:  # q OR ESC\n        print(\"Exiting...\")\n        break\n    if cv2.getWindowProperty('Enroll', cv2.WND_PROP_VISIBLE) < 1:\n        print(\"Window closed\")\n        break\n    if key == ord('s'):  # s\n        print(\"Saving...\")\n        break",
+        "detail": "src.enroll",
+        "documentation": {}
+    },
+    {
+        "label": "init_servo",
+        "kind": 2,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "def init_servo():\n    \"\"\"Initialize servo motor\"\"\"\n    global servo\n    try:\n        servo = PWM(Pin(SERVO_PIN), SERVO_FREQ)\n        servo.duty(SERVO_CENTER_DUTY)  # Start at center position\n        print(\"✓ Servo initialized with corrected duty cycles\")\n        return True\n    except Exception as e:\n        print(f\"✗ Failed to initialize servo: {e}\")",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "angle_to_duty",
+        "kind": 2,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "def angle_to_duty(angle):\n    \"\"\"Convert angle (0-180) to duty cycle\"\"\"\n    duty = SERVO_MIN_DUTY + (angle / 180) * (SERVO_MAX_DUTY - SERVO_MIN_DUTY)\n    return int(duty)\ndef move_servo(angle):\n    \"\"\"Move servo to specified angle (0-180)\"\"\"\n    global current_angle, target_angle\n    try:\n        # Clamp angle to valid range\n        angle = max(0, min(180, angle))",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "move_servo",
+        "kind": 2,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "def move_servo(angle):\n    \"\"\"Move servo to specified angle (0-180)\"\"\"\n    global current_angle, target_angle\n    try:\n        # Clamp angle to valid range\n        angle = max(0, min(180, angle))\n        target_angle = angle\n        # Smooth movement (gradual transition)\n        steps = 10\n        step_delay = 0.02  # 20ms between steps",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "connect_wifi",
+        "kind": 2,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "def connect_wifi():\n    \"\"\"Connect to WiFi network\"\"\"\n    wlan = network.WLAN(network.STA_IF)\n    wlan.active(True)\n    if not wlan.isconnected():\n        print(f\"Connecting to WiFi: {WIFI_SSID}\")\n        wlan.connect(WIFI_SSID, WIFI_PASSWORD)\n        # Wait for connection\n        timeout = 20\n        while not wlan.isconnected() and timeout > 0:",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "on_mqtt_connect",
+        "kind": 2,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "def on_mqtt_connect(client, userdata, flags, rc):\n    \"\"\"MQTT connection callback\"\"\"\n    if rc == 0:\n        print(f\"✓ Connected to MQTT broker at {MQTT_BROKER}\")\n        # Subscribe to movement topic\n        client.subscribe(MQTT_TOPIC)\n        print(f\"✓ Subscribed to: {MQTT_TOPIC}\")\n    else:\n        print(f\"✗ MQTT connection failed: {rc}\")\ndef on_mqtt_message(client, userdata, msg):",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "on_mqtt_message",
+        "kind": 2,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "def on_mqtt_message(client, userdata, msg):\n    \"\"\"Handle incoming MQTT messages\"\"\"\n    global current_angle\n    try:\n        # Parse JSON message\n        payload = msg.payload.decode('utf-8')\n        data = ujson.loads(payload)\n        status = data.get('status', 'UNKNOWN')\n        confidence = data.get('confidence', 0.0)\n        servo_angle = data.get('servo_angle', None)",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "init_mqtt",
+        "kind": 2,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "def init_mqtt():\n    \"\"\"Initialize MQTT client\"\"\"\n    global mqtt_client\n    try:\n        mqtt_client = MQTTClient(\n            MQTT_CLIENT_ID,\n            MQTT_BROKER,\n            MQTT_PORT,\n            keepalive=60\n        )",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "def main():\n    \"\"\"Main program loop\"\"\"\n    print(\"=\" * 50)\n    print(\"ESP8266 Servo Controller - FIXED VERSION\")\n    print(f\"Team ID: {TEAM_ID}\")\n    print(\"=\" * 50)\n    # Initialize components\n    if not init_servo():\n        print(\"Failed to initialize servo. Exiting.\")\n        return",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "TEAM_ID",
+        "kind": 5,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "TEAM_ID = \"minister\"  # Must match PC client team_id\nMQTT_BROKER = \"157.173.101.159\"  # Replace with your VPS IP address\nMQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration - CORRECTED VALUES\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - WORKING VALUES\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - WORKING VALUES",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "MQTT_BROKER",
+        "kind": 5,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "MQTT_BROKER = \"157.173.101.159\"  # Replace with your VPS IP address\nMQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration - CORRECTED VALUES\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - WORKING VALUES\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - WORKING VALUES\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees) - WORKING VALUES",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "MQTT_PORT",
+        "kind": 5,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "MQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration - CORRECTED VALUES\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - WORKING VALUES\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - WORKING VALUES\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees) - WORKING VALUES\n# WiFi configuration",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "MQTT_TOPIC",
+        "kind": 5,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "MQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration - CORRECTED VALUES\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - WORKING VALUES\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - WORKING VALUES\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees) - WORKING VALUES\n# WiFi configuration\nWIFI_SSID = \"RCA\"  # Replace with your WiFi SSID",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "MQTT_CLIENT_ID",
+        "kind": 5,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "MQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration - CORRECTED VALUES\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - WORKING VALUES\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - WORKING VALUES\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees) - WORKING VALUES\n# WiFi configuration\nWIFI_SSID = \"RCA\"  # Replace with your WiFi SSID\nWIFI_PASSWORD = \"@RcaNyabihu2023\"  # Replace with your WiFi password",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "SERVO_PIN",
+        "kind": 5,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "SERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - WORKING VALUES\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - WORKING VALUES\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees) - WORKING VALUES\n# WiFi configuration\nWIFI_SSID = \"RCA\"  # Replace with your WiFi SSID\nWIFI_PASSWORD = \"@RcaNyabihu2023\"  # Replace with your WiFi password\n# ===================== GLOBAL VARIABLES =====================\nservo = None",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "SERVO_FREQ",
+        "kind": 5,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "SERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - WORKING VALUES\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - WORKING VALUES\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees) - WORKING VALUES\n# WiFi configuration\nWIFI_SSID = \"RCA\"  # Replace with your WiFi SSID\nWIFI_PASSWORD = \"@RcaNyabihu2023\"  # Replace with your WiFi password\n# ===================== GLOBAL VARIABLES =====================\nservo = None\nmqtt_client = None",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "SERVO_MIN_DUTY",
+        "kind": 5,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "SERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - WORKING VALUES\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - WORKING VALUES\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees) - WORKING VALUES\n# WiFi configuration\nWIFI_SSID = \"RCA\"  # Replace with your WiFi SSID\nWIFI_PASSWORD = \"@RcaNyabihu2023\"  # Replace with your WiFi password\n# ===================== GLOBAL VARIABLES =====================\nservo = None\nmqtt_client = None\ncurrent_angle = 90  # Start at center position",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "SERVO_MAX_DUTY",
+        "kind": 5,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "SERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - WORKING VALUES\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees) - WORKING VALUES\n# WiFi configuration\nWIFI_SSID = \"RCA\"  # Replace with your WiFi SSID\nWIFI_PASSWORD = \"@RcaNyabihu2023\"  # Replace with your WiFi password\n# ===================== GLOBAL VARIABLES =====================\nservo = None\nmqtt_client = None\ncurrent_angle = 90  # Start at center position\ntarget_angle = 90",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "SERVO_CENTER_DUTY",
+        "kind": 5,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "SERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees) - WORKING VALUES\n# WiFi configuration\nWIFI_SSID = \"RCA\"  # Replace with your WiFi SSID\nWIFI_PASSWORD = \"@RcaNyabihu2023\"  # Replace with your WiFi password\n# ===================== GLOBAL VARIABLES =====================\nservo = None\nmqtt_client = None\ncurrent_angle = 90  # Start at center position\ntarget_angle = 90\n# ===================== SERVO FUNCTIONS =====================",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "WIFI_SSID",
+        "kind": 5,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "WIFI_SSID = \"RCA\"  # Replace with your WiFi SSID\nWIFI_PASSWORD = \"@RcaNyabihu2023\"  # Replace with your WiFi password\n# ===================== GLOBAL VARIABLES =====================\nservo = None\nmqtt_client = None\ncurrent_angle = 90  # Start at center position\ntarget_angle = 90\n# ===================== SERVO FUNCTIONS =====================\ndef init_servo():\n    \"\"\"Initialize servo motor\"\"\"",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "WIFI_PASSWORD",
+        "kind": 5,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "WIFI_PASSWORD = \"@RcaNyabihu2023\"  # Replace with your WiFi password\n# ===================== GLOBAL VARIABLES =====================\nservo = None\nmqtt_client = None\ncurrent_angle = 90  # Start at center position\ntarget_angle = 90\n# ===================== SERVO FUNCTIONS =====================\ndef init_servo():\n    \"\"\"Initialize servo motor\"\"\"\n    global servo",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "servo",
+        "kind": 5,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "servo = None\nmqtt_client = None\ncurrent_angle = 90  # Start at center position\ntarget_angle = 90\n# ===================== SERVO FUNCTIONS =====================\ndef init_servo():\n    \"\"\"Initialize servo motor\"\"\"\n    global servo\n    try:\n        servo = PWM(Pin(SERVO_PIN), SERVO_FREQ)",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "mqtt_client",
+        "kind": 5,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "mqtt_client = None\ncurrent_angle = 90  # Start at center position\ntarget_angle = 90\n# ===================== SERVO FUNCTIONS =====================\ndef init_servo():\n    \"\"\"Initialize servo motor\"\"\"\n    global servo\n    try:\n        servo = PWM(Pin(SERVO_PIN), SERVO_FREQ)\n        servo.duty(SERVO_CENTER_DUTY)  # Start at center position",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "current_angle",
+        "kind": 5,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "current_angle = 90  # Start at center position\ntarget_angle = 90\n# ===================== SERVO FUNCTIONS =====================\ndef init_servo():\n    \"\"\"Initialize servo motor\"\"\"\n    global servo\n    try:\n        servo = PWM(Pin(SERVO_PIN), SERVO_FREQ)\n        servo.duty(SERVO_CENTER_DUTY)  # Start at center position\n        print(\"✓ Servo initialized with corrected duty cycles\")",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "target_angle",
+        "kind": 5,
+        "importPath": "src.esp8266_fixed",
+        "description": "src.esp8266_fixed",
+        "peekOfCode": "target_angle = 90\n# ===================== SERVO FUNCTIONS =====================\ndef init_servo():\n    \"\"\"Initialize servo motor\"\"\"\n    global servo\n    try:\n        servo = PWM(Pin(SERVO_PIN), SERVO_FREQ)\n        servo.duty(SERVO_CENTER_DUTY)  # Start at center position\n        print(\"✓ Servo initialized with corrected duty cycles\")\n        return True",
+        "detail": "src.esp8266_fixed",
+        "documentation": {}
+    },
+    {
+        "label": "init_servo",
+        "kind": 2,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "def init_servo():\n    \"\"\"Initialize servo motor\"\"\"\n    global servo\n    try:\n        servo = PWM(Pin(SERVO_PIN), SERVO_FREQ)\n        servo.duty(SERVO_CENTER_DUTY)  # Start at center position\n        print(\"✓ Servo initialized\")\n        return True\n    except Exception as e:\n        print(f\"✗ Failed to initialize servo: {e}\")",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "angle_to_duty",
+        "kind": 2,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "def angle_to_duty(angle):\n    \"\"\"Convert angle (0-180) to duty cycle\"\"\"\n    # Linear interpolation between min and max duty\n    duty = SERVO_MIN_DUTY + (angle / 180) * (SERVO_MAX_DUTY - SERVO_MIN_DUTY)\n    return int(duty)\ndef move_servo(angle):\n    \"\"\"Move servo to specified angle (0-180)\"\"\"\n    global current_angle, target_angle\n    try:\n        # Clamp angle to valid range",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "move_servo",
+        "kind": 2,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "def move_servo(angle):\n    \"\"\"Move servo to specified angle (0-180)\"\"\"\n    global current_angle, target_angle\n    try:\n        # Clamp angle to valid range\n        angle = max(0, min(180, angle))\n        target_angle = angle\n        # Smooth movement (gradual transition)\n        steps = 10\n        step_delay = 0.02  # 20ms between steps",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "connect_wifi",
+        "kind": 2,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "def connect_wifi():\n    \"\"\"Connect to WiFi network\"\"\"\n    wlan = network.WLAN(network.STA_IF)\n    wlan.active(True)\n    if not wlan.isconnected():\n        print(f\"Connecting to WiFi: {WIFI_SSID}\")\n        wlan.connect(WIFI_SSID, WIFI_PASSWORD)\n        # Wait for connection\n        timeout = 20\n        while not wlan.isconnected() and timeout > 0:",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "on_mqtt_connect",
+        "kind": 2,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "def on_mqtt_connect(client, userdata, flags, rc):\n    \"\"\"MQTT connection callback\"\"\"\n    if rc == 0:\n        print(f\"✓ Connected to MQTT broker at {MQTT_BROKER}\")\n        # Subscribe to movement topic\n        client.subscribe(MQTT_TOPIC)\n        print(f\"✓ Subscribed to: {MQTT_TOPIC}\")\n    else:\n        print(f\"✗ MQTT connection failed: {rc}\")\ndef on_mqtt_message(client, userdata, msg):",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "on_mqtt_message",
+        "kind": 2,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "def on_mqtt_message(client, userdata, msg):\n    \"\"\"Handle incoming MQTT messages\"\"\"\n    global current_angle\n    try:\n        # Parse JSON message\n        payload = msg.payload.decode('utf-8')\n        data = ujson.loads(payload)\n        status = data.get('status', 'UNKNOWN')\n        confidence = data.get('confidence', 0.0)\n        servo_angle = data.get('servo_angle', None)",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "init_mqtt",
+        "kind": 2,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "def init_mqtt():\n    \"\"\"Initialize MQTT client\"\"\"\n    global mqtt_client\n    try:\n        mqtt_client = MQTTClient(\n            MQTT_CLIENT_ID,\n            MQTT_BROKER,\n            MQTT_PORT,\n            keepalive=60\n        )",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "def main():\n    \"\"\"Main program loop\"\"\"\n    print(\"=\" * 50)\n    print(\"ESP8266 Servo Controller\")\n    print(f\"Team ID: {TEAM_ID}\")\n    print(\"=\" * 50)\n    # Initialize components\n    if not init_servo():\n        print(\"Failed to initialize servo. Exiting.\")\n        return",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "TEAM_ID",
+        "kind": 5,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "TEAM_ID = \"minister\"  # Must match PC client team_id\nMQTT_BROKER = \"157.173.101.159\"  # Replace with your VPS IP address\nMQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - adjusted for SG90\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - adjusted for SG90",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "MQTT_BROKER",
+        "kind": 5,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "MQTT_BROKER = \"157.173.101.159\"  # Replace with your VPS IP address\nMQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - adjusted for SG90\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - adjusted for SG90\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "MQTT_PORT",
+        "kind": 5,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "MQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - adjusted for SG90\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - adjusted for SG90\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)\n# WiFi configuration",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "MQTT_TOPIC",
+        "kind": 5,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "MQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - adjusted for SG90\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - adjusted for SG90\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)\n# WiFi configuration\nWIFI_SSID = \"RCA\"  # Replace with your WiFi SSID",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "MQTT_CLIENT_ID",
+        "kind": 5,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "MQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - adjusted for SG90\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - adjusted for SG90\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)\n# WiFi configuration\nWIFI_SSID = \"RCA\"  # Replace with your WiFi SSID\nWIFI_PASSWORD = \"@RcaNyabihu2023\"  # Replace with your WiFi password",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "SERVO_PIN",
+        "kind": 5,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "SERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - adjusted for SG90\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - adjusted for SG90\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)\n# WiFi configuration\nWIFI_SSID = \"RCA\"  # Replace with your WiFi SSID\nWIFI_PASSWORD = \"@RcaNyabihu2023\"  # Replace with your WiFi password\n# ===================== GLOBAL VARIABLES =====================\nservo = None",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "SERVO_FREQ",
+        "kind": 5,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "SERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - adjusted for SG90\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - adjusted for SG90\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)\n# WiFi configuration\nWIFI_SSID = \"RCA\"  # Replace with your WiFi SSID\nWIFI_PASSWORD = \"@RcaNyabihu2023\"  # Replace with your WiFi password\n# ===================== GLOBAL VARIABLES =====================\nservo = None\nmqtt_client = None",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "SERVO_MIN_DUTY",
+        "kind": 5,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "SERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - adjusted for SG90\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - adjusted for SG90\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)\n# WiFi configuration\nWIFI_SSID = \"RCA\"  # Replace with your WiFi SSID\nWIFI_PASSWORD = \"@RcaNyabihu2023\"  # Replace with your WiFi password\n# ===================== GLOBAL VARIABLES =====================\nservo = None\nmqtt_client = None\ncurrent_angle = 90  # Start at center position",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "SERVO_MAX_DUTY",
+        "kind": 5,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "SERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - adjusted for SG90\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)\n# WiFi configuration\nWIFI_SSID = \"RCA\"  # Replace with your WiFi SSID\nWIFI_PASSWORD = \"@RcaNyabihu2023\"  # Replace with your WiFi password\n# ===================== GLOBAL VARIABLES =====================\nservo = None\nmqtt_client = None\ncurrent_angle = 90  # Start at center position\ntarget_angle = 90",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "SERVO_CENTER_DUTY",
+        "kind": 5,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "SERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)\n# WiFi configuration\nWIFI_SSID = \"RCA\"  # Replace with your WiFi SSID\nWIFI_PASSWORD = \"@RcaNyabihu2023\"  # Replace with your WiFi password\n# ===================== GLOBAL VARIABLES =====================\nservo = None\nmqtt_client = None\ncurrent_angle = 90  # Start at center position\ntarget_angle = 90\n# ===================== SERVO FUNCTIONS =====================",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "WIFI_SSID",
+        "kind": 5,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "WIFI_SSID = \"RCA\"  # Replace with your WiFi SSID\nWIFI_PASSWORD = \"@RcaNyabihu2023\"  # Replace with your WiFi password\n# ===================== GLOBAL VARIABLES =====================\nservo = None\nmqtt_client = None\ncurrent_angle = 90  # Start at center position\ntarget_angle = 90\n# ===================== SERVO FUNCTIONS =====================\ndef init_servo():\n    \"\"\"Initialize servo motor\"\"\"",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "WIFI_PASSWORD",
+        "kind": 5,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "WIFI_PASSWORD = \"@RcaNyabihu2023\"  # Replace with your WiFi password\n# ===================== GLOBAL VARIABLES =====================\nservo = None\nmqtt_client = None\ncurrent_angle = 90  # Start at center position\ntarget_angle = 90\n# ===================== SERVO FUNCTIONS =====================\ndef init_servo():\n    \"\"\"Initialize servo motor\"\"\"\n    global servo",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "servo",
+        "kind": 5,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "servo = None\nmqtt_client = None\ncurrent_angle = 90  # Start at center position\ntarget_angle = 90\n# ===================== SERVO FUNCTIONS =====================\ndef init_servo():\n    \"\"\"Initialize servo motor\"\"\"\n    global servo\n    try:\n        servo = PWM(Pin(SERVO_PIN), SERVO_FREQ)",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "mqtt_client",
+        "kind": 5,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "mqtt_client = None\ncurrent_angle = 90  # Start at center position\ntarget_angle = 90\n# ===================== SERVO FUNCTIONS =====================\ndef init_servo():\n    \"\"\"Initialize servo motor\"\"\"\n    global servo\n    try:\n        servo = PWM(Pin(SERVO_PIN), SERVO_FREQ)\n        servo.duty(SERVO_CENTER_DUTY)  # Start at center position",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "current_angle",
+        "kind": 5,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "current_angle = 90  # Start at center position\ntarget_angle = 90\n# ===================== SERVO FUNCTIONS =====================\ndef init_servo():\n    \"\"\"Initialize servo motor\"\"\"\n    global servo\n    try:\n        servo = PWM(Pin(SERVO_PIN), SERVO_FREQ)\n        servo.duty(SERVO_CENTER_DUTY)  # Start at center position\n        print(\"✓ Servo initialized\")",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "target_angle",
+        "kind": 5,
+        "importPath": "src.esp8266_servo_controller",
+        "description": "src.esp8266_servo_controller",
+        "peekOfCode": "target_angle = 90\n# ===================== SERVO FUNCTIONS =====================\ndef init_servo():\n    \"\"\"Initialize servo motor\"\"\"\n    global servo\n    try:\n        servo = PWM(Pin(SERVO_PIN), SERVO_FREQ)\n        servo.duty(SERVO_CENTER_DUTY)  # Start at center position\n        print(\"✓ Servo initialized\")\n        return True",
+        "detail": "src.esp8266_servo_controller",
+        "documentation": {}
+    },
+    {
+        "label": "genuine_scores",
+        "kind": 5,
+        "importPath": "src.evaluate",
+        "description": "src.evaluate",
+        "peekOfCode": "genuine_scores = []\nimpostor_scores = []\n# Genuine pairs\nfor name, embs in db.items():\n    embs = np.array(embs)\n    if len(embs) >= 2:\n        for i in range(len(embs)):\n            for j in range(i + 1, len(embs)):\n                genuine_scores.append(np.dot(embs[i], embs[j]))\n# Impostor pairs (limited for speed)",
+        "detail": "src.evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "impostor_scores",
+        "kind": 5,
+        "importPath": "src.evaluate",
+        "description": "src.evaluate",
+        "peekOfCode": "impostor_scores = []\n# Genuine pairs\nfor name, embs in db.items():\n    embs = np.array(embs)\n    if len(embs) >= 2:\n        for i in range(len(embs)):\n            for j in range(i + 1, len(embs)):\n                genuine_scores.append(np.dot(embs[i], embs[j]))\n# Impostor pairs (limited for speed)\nnames = list(db.keys())",
+        "detail": "src.evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "names",
+        "kind": 5,
+        "importPath": "src.evaluate",
+        "description": "src.evaluate",
+        "peekOfCode": "names = list(db.keys())\nfor i in range(len(names)):\n    for j in range(i + 1, len(names)):\n        e1 = np.array(db[names[i]])\n        e2 = np.array(db[names[j]])\n        for a in e1:\n            for b in e2[:8]:\n                impostor_scores.append(np.dot(a, b))\ngenuine_scores = np.array(genuine_scores)\nimpostor_scores = np.array(impostor_scores)",
+        "detail": "src.evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "genuine_scores",
+        "kind": 5,
+        "importPath": "src.evaluate",
+        "description": "src.evaluate",
+        "peekOfCode": "genuine_scores = np.array(genuine_scores)\nimpostor_scores = np.array(impostor_scores)\nprint(f\"Genuine mean: {genuine_scores.mean():.3f} ± {genuine_scores.std():.3f}\")\nprint(f\"Impostor mean: {impostor_scores.mean():.3f} ± {impostor_scores.std():.3f}\")\nplt.hist(genuine_scores, bins=50, alpha=0.7, label='Genuine', color='blue')\nplt.hist(impostor_scores, bins=50, alpha=0.7, label='Impostor', color='orange')\nplt.axvline(0.62, color='red', linestyle='--', label='Suggested Threshold 0.62')\nplt.legend()\nplt.xlabel('Cosine Similarity')\nplt.title('Threshold Evaluation')",
+        "detail": "src.evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "impostor_scores",
+        "kind": 5,
+        "importPath": "src.evaluate",
+        "description": "src.evaluate",
+        "peekOfCode": "impostor_scores = np.array(impostor_scores)\nprint(f\"Genuine mean: {genuine_scores.mean():.3f} ± {genuine_scores.std():.3f}\")\nprint(f\"Impostor mean: {impostor_scores.mean():.3f} ± {impostor_scores.std():.3f}\")\nplt.hist(genuine_scores, bins=50, alpha=0.7, label='Genuine', color='blue')\nplt.hist(impostor_scores, bins=50, alpha=0.7, label='Impostor', color='orange')\nplt.axvline(0.62, color='red', linestyle='--', label='Suggested Threshold 0.62')\nplt.legend()\nplt.xlabel('Cosine Similarity')\nplt.title('Threshold Evaluation')\nplt.show()",
+        "detail": "src.evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "ActionDetector",
+        "kind": 6,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "class ActionDetector:\n    def __init__(self):\n        self.prev_nose_x = None\n        self.baseline_mouth_width = None\n        self.baseline_lip_sep = None\n        self.smile_frames = 0\n        self.blink_frames = 0\n    def update_baseline(self, landmarks, h, w):\n        left_mouth = np.array([landmarks[61].x * w, landmarks[61].y * h])\n        right_mouth = np.array([landmarks[291].x * w, landmarks[291].y * h])",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess",
+        "kind": 2,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "def preprocess(aligned):\n    img = aligned.astype(np.float32)\n    img = (img - 127.5) / 127.5\n    img = np.transpose(img, (2, 0, 1))\n    img = np.expand_dims(img, axis=0)\n    return img\ndef get_embedding(aligned):\n    blob = preprocess(aligned)\n    emb = session.run(None, {'input.1': blob})[0][0]\n    return emb / np.linalg.norm(emb)",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "get_embedding",
+        "kind": 2,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "def get_embedding(aligned):\n    blob = preprocess(aligned)\n    emb = session.run(None, {'input.1': blob})[0][0]\n    return emb / np.linalg.norm(emb)\ndef compute_ear(landmarks, eye_indices, h, w):\n    points = np.array([[landmarks[i].x * w, landmarks[i].y * h] for i in eye_indices])\n    A = np.linalg.norm(points[1] - points[5])\n    B = np.linalg.norm(points[2] - points[4])\n    C = np.linalg.norm(points[0] - points[3])\n    return (A + B) / (2.0 * C) if C > 0 else 0",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "compute_ear",
+        "kind": 2,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "def compute_ear(landmarks, eye_indices, h, w):\n    points = np.array([[landmarks[i].x * w, landmarks[i].y * h] for i in eye_indices])\n    A = np.linalg.norm(points[1] - points[5])\n    B = np.linalg.norm(points[2] - points[4])\n    C = np.linalg.norm(points[0] - points[3])\n    return (A + B) / (2.0 * C) if C > 0 else 0\ndef detect_smile(landmarks, h, w, baseline_mouth_width=None, baseline_lip_sep=None):\n    left_mouth = np.array([landmarks[61].x * w, landmarks[61].y * h])\n    right_mouth = np.array([landmarks[291].x * w, landmarks[291].y * h])\n    upper_lip_top = np.array([landmarks[13].x * w, landmarks[13].y * h])",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "detect_smile",
+        "kind": 2,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "def detect_smile(landmarks, h, w, baseline_mouth_width=None, baseline_lip_sep=None):\n    left_mouth = np.array([landmarks[61].x * w, landmarks[61].y * h])\n    right_mouth = np.array([landmarks[291].x * w, landmarks[291].y * h])\n    upper_lip_top = np.array([landmarks[13].x * w, landmarks[13].y * h])\n    lower_lip_bottom = np.array([landmarks[14].x * w, landmarks[14].y * h])\n    mouth_width = np.linalg.norm(left_mouth - right_mouth)\n    lip_separation = np.linalg.norm(upper_lip_top - lower_lip_bottom)\n    left_eye = np.array([landmarks[33].x * w, landmarks[33].y * h])\n    right_eye = np.array([landmarks[263].x * w, landmarks[263].y * h])\n    face_width = np.linalg.norm(left_eye - right_eye)",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "on_mqtt_connect",
+        "kind": 2,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "def on_mqtt_connect(client, userdata, flags, rc):\n    if rc == 0:\n        print(f\"✓ Connected to MQTT broker at {MQTT_BROKER}:{MQTT_PORT}\")\n        # Send initial heartbeat\n        send_heartbeat()\n    else:\n        print(f\"✗ Failed to connect to MQTT broker: {rc}\")\ndef on_mqtt_disconnect(client, userdata, rc):\n    print(f\"✗ Disconnected from MQTT broker: {rc}\")\ndef init_mqtt():",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "on_mqtt_disconnect",
+        "kind": 2,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "def on_mqtt_disconnect(client, userdata, rc):\n    print(f\"✗ Disconnected from MQTT broker: {rc}\")\ndef init_mqtt():\n    global mqtt_client\n    try:\n        mqtt_client = mqtt.Client()\n        mqtt_client.on_connect = on_mqtt_connect\n        mqtt_client.on_disconnect = on_mqtt_disconnect\n        print(f\"Connecting to MQTT broker at {MQTT_BROKER}:{MQTT_PORT}...\")\n        mqtt_client.connect(MQTT_BROKER, MQTT_PORT, 60)",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "init_mqtt",
+        "kind": 2,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "def init_mqtt():\n    global mqtt_client\n    try:\n        mqtt_client = mqtt.Client()\n        mqtt_client.on_connect = on_mqtt_connect\n        mqtt_client.on_disconnect = on_mqtt_disconnect\n        print(f\"Connecting to MQTT broker at {MQTT_BROKER}:{MQTT_PORT}...\")\n        mqtt_client.connect(MQTT_BROKER, MQTT_PORT, 60)\n        mqtt_client.loop_start()\n        return True",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_servo_angle",
+        "kind": 2,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "def calculate_servo_angle(face_center_x):\n    \"\"\"Calculate servo angle based on face position in frame\"\"\"\n    # Map face x-position (0 to FRAME_WIDTH) to servo angle (SERVO_MIN_ANGLE to SERVO_MAX_ANGLE)\n    # Invert mapping so that left face movement turns servo left, right movement turns servo right\n    normalized_x = face_center_x / FRAME_WIDTH\n    angle = SERVO_MAX_ANGLE - (normalized_x * (SERVO_MAX_ANGLE - SERVO_MIN_ANGLE))\n    return max(SERVO_MIN_ANGLE, min(SERVO_MAX_ANGLE, angle))\ndef send_heartbeat():\n    \"\"\"Send heartbeat message to MQTT broker\"\"\"\n    if mqtt_client:",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "send_heartbeat",
+        "kind": 2,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "def send_heartbeat():\n    \"\"\"Send heartbeat message to MQTT broker\"\"\"\n    if mqtt_client:\n        heartbeat_msg = {\n            \"node\": \"pc\",\n            \"status\": \"ONLINE\",\n            \"timestamp\": int(time.time())\n        }\n        try:\n            mqtt_client.publish(MQTT_HEARTBEAT_TOPIC, json.dumps(heartbeat_msg))",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "publish_movement",
+        "kind": 2,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "def publish_movement(status, confidence=0.0, face_center_x=None):\n    \"\"\"Publish movement status and servo angle to MQTT\"\"\"\n    global current_servo_angle, target_servo_angle\n    if not mqtt_client:\n        return\n    movement_msg = {\n        \"status\": status,\n        \"confidence\": float(confidence),  # Convert numpy float32 to Python float\n        \"timestamp\": int(time.time())\n    }",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "THRESHOLD",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "THRESHOLD = 0.62  # Face recognition similarity threshold\nTARGET_NAME = input(\"Enter the identity to lock onto (e.g., your name): \").strip().lower()\nMISS_TOLERANCE = 20  # Frames to tolerate no target before unlock\nMOVEMENT_THRESHOLD = 40  # Adjusted for full-frame pixel scale\nBLINK_EAR_THRESHOLD = 0.21\nSMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"sudoers\"  # Your unique team identifier",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "TARGET_NAME",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "TARGET_NAME = input(\"Enter the identity to lock onto (e.g., your name): \").strip().lower()\nMISS_TOLERANCE = 20  # Frames to tolerate no target before unlock\nMOVEMENT_THRESHOLD = 40  # Adjusted for full-frame pixel scale\nBLINK_EAR_THRESHOLD = 0.21\nSMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"sudoers\"  # Your unique team identifier\nMQTT_BROKER = \"157.173.101.159\"  # Your VPS MQTT broker",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "MISS_TOLERANCE",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "MISS_TOLERANCE = 20  # Frames to tolerate no target before unlock\nMOVEMENT_THRESHOLD = 40  # Adjusted for full-frame pixel scale\nBLINK_EAR_THRESHOLD = 0.21\nSMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"sudoers\"  # Your unique team identifier\nMQTT_BROKER = \"157.173.101.159\"  # Your VPS MQTT broker\nMQTT_PORT = 1883",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "MOVEMENT_THRESHOLD",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "MOVEMENT_THRESHOLD = 40  # Adjusted for full-frame pixel scale\nBLINK_EAR_THRESHOLD = 0.21\nSMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"sudoers\"  # Your unique team identifier\nMQTT_BROKER = \"157.173.101.159\"  # Your VPS MQTT broker\nMQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "BLINK_EAR_THRESHOLD",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "BLINK_EAR_THRESHOLD = 0.21\nSMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"sudoers\"  # Your unique team identifier\nMQTT_BROKER = \"157.173.101.159\"  # Your VPS MQTT broker\nMQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "SMILE_CONFIDENCE_THRESHOLD",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "SMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"sudoers\"  # Your unique team identifier\nMQTT_BROKER = \"157.173.101.159\"  # Your VPS MQTT broker\nMQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "CONSECUTIVE_SMILE_FRAMES",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "CONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"sudoers\"  # Your unique team identifier\nMQTT_BROKER = \"157.173.101.159\"  # Your VPS MQTT broker\nMQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_FACES",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "MAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"sudoers\"  # Your unique team identifier\nMQTT_BROKER = \"157.173.101.159\"  # Your VPS MQTT broker\nMQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "TEAM_ID",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "TEAM_ID = \"sudoers\"  # Your unique team identifier\nMQTT_BROKER = \"157.173.101.159\"  # Your VPS MQTT broker\nMQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "MQTT_BROKER",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "MQTT_BROKER = \"157.173.101.159\"  # Your VPS MQTT broker\nMQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "MQTT_PORT",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "MQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "MQTT_TOPIC",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "MQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "MQTT_HEARTBEAT_TOPIC",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "MQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking\nMIN_FACE_SIZE = 50  # Minimum face size to process",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "SERVO_MIN_ANGLE",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "SERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking\nMIN_FACE_SIZE = 50  # Minimum face size to process\nMAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "SERVO_MAX_ANGLE",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "SERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking\nMIN_FACE_SIZE = 50  # Minimum face size to process\nMAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "FRAME_WIDTH",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "FRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking\nMIN_FACE_SIZE = 50  # Minimum face size to process\nMAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "SERVO_SMOOTHING",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "SERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking\nMIN_FACE_SIZE = 50  # Minimum face size to process\nMAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================\nprint(\"Initializing multi-face detection system...\")",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "TRACKING_MODE",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "TRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking\nMIN_FACE_SIZE = 50  # Minimum face size to process\nMAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================\nprint(\"Initializing multi-face detection system...\")\n# Initialize FaceLandmarker detector using Tasks API\nbase_options = python.BaseOptions(model_asset_path=\"../models/face_landmarker.task\")",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "PROCESS_EVERY_N_FRAMES",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "PROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking\nMIN_FACE_SIZE = 50  # Minimum face size to process\nMAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================\nprint(\"Initializing multi-face detection system...\")\n# Initialize FaceLandmarker detector using Tasks API\nbase_options = python.BaseOptions(model_asset_path=\"../models/face_landmarker.task\")\noptions = vision.FaceLandmarkerOptions(",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "MIN_FACE_SIZE",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "MIN_FACE_SIZE = 50  # Minimum face size to process\nMAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================\nprint(\"Initializing multi-face detection system...\")\n# Initialize FaceLandmarker detector using Tasks API\nbase_options = python.BaseOptions(model_asset_path=\"../models/face_landmarker.task\")\noptions = vision.FaceLandmarkerOptions(\n    base_options=base_options,",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_FACE_SIZE",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "MAX_FACE_SIZE = 500  # Maximum face size to process\nSTABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================\nprint(\"Initializing multi-face detection system...\")\n# Initialize FaceLandmarker detector using Tasks API\nbase_options = python.BaseOptions(model_asset_path=\"../models/face_landmarker.task\")\noptions = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "STABILITY_THRESHOLD",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "STABILITY_THRESHOLD = 5  # Frames of stable position before reducing processing\nBBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================\nprint(\"Initializing multi-face detection system...\")\n# Initialize FaceLandmarker detector using Tasks API\nbase_options = python.BaseOptions(model_asset_path=\"../models/face_landmarker.task\")\noptions = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,\n    num_faces=MAX_FACES",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "BBOX_PADDING",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "BBOX_PADDING = 0.25  # Padding around landmarks for bounding box (extra head room)\n# ===================== INITIALIZATION =====================\nprint(\"Initializing multi-face detection system...\")\n# Initialize FaceLandmarker detector using Tasks API\nbase_options = python.BaseOptions(model_asset_path=\"../models/face_landmarker.task\")\noptions = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,\n    num_faces=MAX_FACES\n)",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "base_options",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "base_options = python.BaseOptions(model_asset_path=\"../models/face_landmarker.task\")\noptions = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,\n    num_faces=MAX_FACES\n)\nface_mesh = vision.FaceLandmarker.create_from_options(options)\n# Initialize ONNX Runtime session for ArcFace\ntry:\n    model_path = \"../models/embedder_arcface.onnx\"",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "options",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "options = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,\n    num_faces=MAX_FACES\n)\nface_mesh = vision.FaceLandmarker.create_from_options(options)\n# Initialize ONNX Runtime session for ArcFace\ntry:\n    model_path = \"../models/embedder_arcface.onnx\"\n    if not os.path.exists(model_path):",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "face_mesh",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "face_mesh = vision.FaceLandmarker.create_from_options(options)\n# Initialize ONNX Runtime session for ArcFace\ntry:\n    model_path = \"../models/embedder_arcface.onnx\"\n    if not os.path.exists(model_path):\n        raise FileNotFoundError(f\"Model not found at {model_path}\")\n    session = ort.InferenceSession(model_path)\n    print(f\"Model loaded successfully from {model_path}\")\nexcept Exception as e:\n    print(f\"Error loading model: {e}\")",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "REF_POINTS",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "REF_POINTS = np.array([\n    [38.2946, 51.6963], [73.5318, 51.5014],\n    [56.0252, 71.7366], [41.5493, 92.3655],\n    [70.7299, 92.2041]\n], dtype=np.float32)\nINDICES_5PT = [33, 263, 1, 61, 291]\n# Landmark groups\nLEFT_EYE = [33, 160, 158, 133, 153, 144]\nRIGHT_EYE = [263, 387, 385, 362, 380, 373]\n# ===================== UTILITY FUNCTIONS =====================",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "INDICES_5PT",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "INDICES_5PT = [33, 263, 1, 61, 291]\n# Landmark groups\nLEFT_EYE = [33, 160, 158, 133, 153, 144]\nRIGHT_EYE = [263, 387, 385, 362, 380, 373]\n# ===================== UTILITY FUNCTIONS =====================\ndef preprocess(aligned):\n    img = aligned.astype(np.float32)\n    img = (img - 127.5) / 127.5\n    img = np.transpose(img, (2, 0, 1))\n    img = np.expand_dims(img, axis=0)",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "LEFT_EYE",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "LEFT_EYE = [33, 160, 158, 133, 153, 144]\nRIGHT_EYE = [263, 387, 385, 362, 380, 373]\n# ===================== UTILITY FUNCTIONS =====================\ndef preprocess(aligned):\n    img = aligned.astype(np.float32)\n    img = (img - 127.5) / 127.5\n    img = np.transpose(img, (2, 0, 1))\n    img = np.expand_dims(img, axis=0)\n    return img\ndef get_embedding(aligned):",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "RIGHT_EYE",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "RIGHT_EYE = [263, 387, 385, 362, 380, 373]\n# ===================== UTILITY FUNCTIONS =====================\ndef preprocess(aligned):\n    img = aligned.astype(np.float32)\n    img = (img - 127.5) / 127.5\n    img = np.transpose(img, (2, 0, 1))\n    img = np.expand_dims(img, axis=0)\n    return img\ndef get_embedding(aligned):\n    blob = preprocess(aligned)",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "mqtt_client",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "mqtt_client = None\ncurrent_servo_angle = 90  # Start at center position\ntarget_servo_angle = 90\ndef on_mqtt_connect(client, userdata, flags, rc):\n    if rc == 0:\n        print(f\"✓ Connected to MQTT broker at {MQTT_BROKER}:{MQTT_PORT}\")\n        # Send initial heartbeat\n        send_heartbeat()\n    else:\n        print(f\"✗ Failed to connect to MQTT broker: {rc}\")",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "current_servo_angle",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "current_servo_angle = 90  # Start at center position\ntarget_servo_angle = 90\ndef on_mqtt_connect(client, userdata, flags, rc):\n    if rc == 0:\n        print(f\"✓ Connected to MQTT broker at {MQTT_BROKER}:{MQTT_PORT}\")\n        # Send initial heartbeat\n        send_heartbeat()\n    else:\n        print(f\"✗ Failed to connect to MQTT broker: {rc}\")\ndef on_mqtt_disconnect(client, userdata, rc):",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "target_servo_angle",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "target_servo_angle = 90\ndef on_mqtt_connect(client, userdata, flags, rc):\n    if rc == 0:\n        print(f\"✓ Connected to MQTT broker at {MQTT_BROKER}:{MQTT_PORT}\")\n        # Send initial heartbeat\n        send_heartbeat()\n    else:\n        print(f\"✗ Failed to connect to MQTT broker: {rc}\")\ndef on_mqtt_disconnect(client, userdata, rc):\n    print(f\"✗ Disconnected from MQTT broker: {rc}\")",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "action_detector",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "action_detector = ActionDetector()\nlocked = False\nlocked_start = None\nmiss_count = 0\nprev_bbox = None\nhistory_file = None\nfps_counter = 0\nstart_time = datetime.now()\n# Performance optimization variables\nframe_count = 0",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "locked",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "locked = False\nlocked_start = None\nmiss_count = 0\nprev_bbox = None\nhistory_file = None\nfps_counter = 0\nstart_time = datetime.now()\n# Performance optimization variables\nframe_count = 0\nstable_frames = 0",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "locked_start",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "locked_start = None\nmiss_count = 0\nprev_bbox = None\nhistory_file = None\nfps_counter = 0\nstart_time = datetime.now()\n# Performance optimization variables\nframe_count = 0\nstable_frames = 0\nprev_position = None",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "miss_count",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "miss_count = 0\nprev_bbox = None\nhistory_file = None\nfps_counter = 0\nstart_time = datetime.now()\n# Performance optimization variables\nframe_count = 0\nstable_frames = 0\nprev_position = None\nprocessing_mode = \"full\"  # \"full\" or \"tracking\"",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "prev_bbox",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "prev_bbox = None\nhistory_file = None\nfps_counter = 0\nstart_time = datetime.now()\n# Performance optimization variables\nframe_count = 0\nstable_frames = 0\nprev_position = None\nprocessing_mode = \"full\"  # \"full\" or \"tracking\"\nprint(\"\\n\" + \"=\" * 50)",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "history_file",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "history_file = None\nfps_counter = 0\nstart_time = datetime.now()\n# Performance optimization variables\nframe_count = 0\nstable_frames = 0\nprev_position = None\nprocessing_mode = \"full\"  # \"full\" or \"tracking\"\nprint(\"\\n\" + \"=\" * 50)\nprint(f\"Target: {TARGET_NAME.capitalize()}\")",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "fps_counter",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "fps_counter = 0\nstart_time = datetime.now()\n# Performance optimization variables\nframe_count = 0\nstable_frames = 0\nprev_position = None\nprocessing_mode = \"full\"  # \"full\" or \"tracking\"\nprint(\"\\n\" + \"=\" * 50)\nprint(f\"Target: {TARGET_NAME.capitalize()}\")\nprint(\"Controls:\")",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "start_time",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "start_time = datetime.now()\n# Performance optimization variables\nframe_count = 0\nstable_frames = 0\nprev_position = None\nprocessing_mode = \"full\"  # \"full\" or \"tracking\"\nprint(\"\\n\" + \"=\" * 50)\nprint(f\"Target: {TARGET_NAME.capitalize()}\")\nprint(\"Controls:\")\nprint(\" - Press 'q' to quit\")",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "frame_count",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "frame_count = 0\nstable_frames = 0\nprev_position = None\nprocessing_mode = \"full\"  # \"full\" or \"tracking\"\nprint(\"\\n\" + \"=\" * 50)\nprint(f\"Target: {TARGET_NAME.capitalize()}\")\nprint(\"Controls:\")\nprint(\" - Press 'q' to quit\")\nprint(\" - Press 'r' to manually release lock\")\nprint(\" - Colors: Thick Green = locked target | Thin Green = other target instances\")",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "stable_frames",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "stable_frames = 0\nprev_position = None\nprocessing_mode = \"full\"  # \"full\" or \"tracking\"\nprint(\"\\n\" + \"=\" * 50)\nprint(f\"Target: {TARGET_NAME.capitalize()}\")\nprint(\"Controls:\")\nprint(\" - Press 'q' to quit\")\nprint(\" - Press 'r' to manually release lock\")\nprint(\" - Colors: Thick Green = locked target | Thin Green = other target instances\")\nprint(\"           Yellow = other enrolled people | Red = unknown\")",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "prev_position",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "prev_position = None\nprocessing_mode = \"full\"  # \"full\" or \"tracking\"\nprint(\"\\n\" + \"=\" * 50)\nprint(f\"Target: {TARGET_NAME.capitalize()}\")\nprint(\"Controls:\")\nprint(\" - Press 'q' to quit\")\nprint(\" - Press 'r' to manually release lock\")\nprint(\" - Colors: Thick Green = locked target | Thin Green = other target instances\")\nprint(\"           Yellow = other enrolled people | Red = unknown\")\nprint(\" - Multi-face detection enabled (up to 10 faces per frame)\")",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "processing_mode",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "processing_mode = \"full\"  # \"full\" or \"tracking\"\nprint(\"\\n\" + \"=\" * 50)\nprint(f\"Target: {TARGET_NAME.capitalize()}\")\nprint(\"Controls:\")\nprint(\" - Press 'q' to quit\")\nprint(\" - Press 'r' to manually release lock\")\nprint(\" - Colors: Thick Green = locked target | Thin Green = other target instances\")\nprint(\"           Yellow = other enrolled people | Red = unknown\")\nprint(\" - Multi-face detection enabled (up to 10 faces per frame)\")\nprint(\"=\" * 50 + \"\\n\")",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "cap",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "cap = cv2.VideoCapture(0)\nif not cap.isOpened():\n    print(\"Error: Could not open camera\")\n    exit(1)\ncap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)\ncap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)\ncap.set(cv2.CAP_PROP_FPS, 30)\n# Create resizable window\ncv2.namedWindow('Face Locking System', cv2.WINDOW_NORMAL)\ncv2.resizeWindow('Face Locking System', 1280, 720)",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "last_heartbeat_time",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "last_heartbeat_time = time.time()\nHEARTBEAT_INTERVAL = 30  # Send heartbeat every 30 seconds\nwhile True:\n    ret, frame = cap.read()\n    if not ret:\n        break\n    frame = cv2.flip(frame, 1)\n    h_frame, w_frame = frame.shape[:2]\n    fps_counter += 1\n    frame_count += 1",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "HEARTBEAT_INTERVAL",
+        "kind": 5,
+        "importPath": "src.face_locking",
+        "description": "src.face_locking",
+        "peekOfCode": "HEARTBEAT_INTERVAL = 30  # Send heartbeat every 30 seconds\nwhile True:\n    ret, frame = cap.read()\n    if not ret:\n        break\n    frame = cv2.flip(frame, 1)\n    h_frame, w_frame = frame.shape[:2]\n    fps_counter += 1\n    frame_count += 1\n    # Performance optimization: Smart processing decision",
+        "detail": "src.face_locking",
+        "documentation": {}
+    },
+    {
+        "label": "detector",
+        "kind": 5,
+        "importPath": "src.haar_5pt",
+        "description": "src.haar_5pt",
+        "peekOfCode": "detector = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')\nmp_face_mesh = mp.solutions.face_mesh\nface_mesh = mp_face_mesh.FaceMesh(static_image_mode=False, max_num_faces=1)\ncap = cv2.VideoCapture(0)\nwhile True:\n    ret, frame = cap.read()\n    if not ret:\n        break\n    frame = cv2.flip(frame, 1)\n    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)",
+        "detail": "src.haar_5pt",
+        "documentation": {}
+    },
+    {
+        "label": "mp_face_mesh",
+        "kind": 5,
+        "importPath": "src.haar_5pt",
+        "description": "src.haar_5pt",
+        "peekOfCode": "mp_face_mesh = mp.solutions.face_mesh\nface_mesh = mp_face_mesh.FaceMesh(static_image_mode=False, max_num_faces=1)\ncap = cv2.VideoCapture(0)\nwhile True:\n    ret, frame = cap.read()\n    if not ret:\n        break\n    frame = cv2.flip(frame, 1)\n    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)\n    faces = detector.detectMultiScale(gray, 1.1, 5, minSize=(100, 100))",
+        "detail": "src.haar_5pt",
+        "documentation": {}
+    },
+    {
+        "label": "face_mesh",
+        "kind": 5,
+        "importPath": "src.haar_5pt",
+        "description": "src.haar_5pt",
+        "peekOfCode": "face_mesh = mp_face_mesh.FaceMesh(static_image_mode=False, max_num_faces=1)\ncap = cv2.VideoCapture(0)\nwhile True:\n    ret, frame = cap.read()\n    if not ret:\n        break\n    frame = cv2.flip(frame, 1)\n    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)\n    faces = detector.detectMultiScale(gray, 1.1, 5, minSize=(100, 100))\n    for (x, y, w, h) in faces:",
+        "detail": "src.haar_5pt",
+        "documentation": {}
+    },
+    {
+        "label": "cap",
+        "kind": 5,
+        "importPath": "src.haar_5pt",
+        "description": "src.haar_5pt",
+        "peekOfCode": "cap = cv2.VideoCapture(0)\nwhile True:\n    ret, frame = cap.read()\n    if not ret:\n        break\n    frame = cv2.flip(frame, 1)\n    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)\n    faces = detector.detectMultiScale(gray, 1.1, 5, minSize=(100, 100))\n    for (x, y, w, h) in faces:\n        cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)",
+        "detail": "src.haar_5pt",
+        "documentation": {}
+    },
+    {
+        "label": "mp_face_mesh",
+        "kind": 5,
+        "importPath": "src.landmarks",
+        "description": "src.landmarks",
+        "peekOfCode": "mp_face_mesh = mp.solutions.face_mesh\nface_mesh = mp_face_mesh.FaceMesh(static_image_mode=False, max_num_faces=1, refine_landmarks=False)\ncap = cv2.VideoCapture(0)\nwhile True:\n    ret, frame = cap.read()\n    if not ret:\n        break\n    frame = cv2.flip(frame, 1)\n    rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)\n    results = face_mesh.process(rgb)",
+        "detail": "src.landmarks",
+        "documentation": {}
+    },
+    {
+        "label": "face_mesh",
+        "kind": 5,
+        "importPath": "src.landmarks",
+        "description": "src.landmarks",
+        "peekOfCode": "face_mesh = mp_face_mesh.FaceMesh(static_image_mode=False, max_num_faces=1, refine_landmarks=False)\ncap = cv2.VideoCapture(0)\nwhile True:\n    ret, frame = cap.read()\n    if not ret:\n        break\n    frame = cv2.flip(frame, 1)\n    rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)\n    results = face_mesh.process(rgb)\n    if results.multi_face_landmarks:",
+        "detail": "src.landmarks",
+        "documentation": {}
+    },
+    {
+        "label": "cap",
+        "kind": 5,
+        "importPath": "src.landmarks",
+        "description": "src.landmarks",
+        "peekOfCode": "cap = cv2.VideoCapture(0)\nwhile True:\n    ret, frame = cap.read()\n    if not ret:\n        break\n    frame = cv2.flip(frame, 1)\n    rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)\n    results = face_mesh.process(rgb)\n    if results.multi_face_landmarks:\n        landmarks = results.multi_face_landmarks[0]",
+        "detail": "src.landmarks",
+        "documentation": {}
+    },
+    {
+        "label": "led",
+        "kind": 5,
+        "importPath": "src.led_test",
+        "description": "src.led_test",
+        "peekOfCode": "led = machine.Pin(2, machine.Pin.OUT)  # GPIO2 = D4 = built-in LED\nprint(\"Testing D4 pin with LED...\")\nfor i in range(10):\n    led.on()\n    print(\"LED ON\")\n    time.sleep(1)\n    led.off() \n    print(\"LED OFF\")\n    time.sleep(1)\nprint(\"LED test complete!\")",
+        "detail": "src.led_test",
+        "documentation": {}
+    },
+    {
+        "label": "angle_to_duty",
+        "kind": 2,
+        "importPath": "src.micropython_servo_test",
+        "description": "src.micropython_servo_test",
+        "peekOfCode": "def angle_to_duty(angle):\n    \"\"\"Convert angle (0-180) to duty cycle\"\"\"\n    duty = SERVO_MIN_DUTY + (angle / 180) * (SERVO_MAX_DUTY - SERVO_MIN_DUTY)\n    return int(duty)\nprint(\"Testing MicroPython servo with corrected duty cycles...\")\nservo = PWM(Pin(SERVO_PIN), SERVO_FREQ)\n# Test sequence - same as Arduino\nangles = [90, 0, 180, 90, 45, 135, 90]\nfor angle in angles:\n    duty = angle_to_duty(angle)",
+        "detail": "src.micropython_servo_test",
+        "documentation": {}
+    },
+    {
+        "label": "SERVO_PIN",
+        "kind": 5,
+        "importPath": "src.micropython_servo_test",
+        "description": "src.micropython_servo_test",
+        "peekOfCode": "SERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees)\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees)\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)\ndef angle_to_duty(angle):\n    \"\"\"Convert angle (0-180) to duty cycle\"\"\"\n    duty = SERVO_MIN_DUTY + (angle / 180) * (SERVO_MAX_DUTY - SERVO_MIN_DUTY)\n    return int(duty)\nprint(\"Testing MicroPython servo with corrected duty cycles...\")",
+        "detail": "src.micropython_servo_test",
+        "documentation": {}
+    },
+    {
+        "label": "SERVO_FREQ",
+        "kind": 5,
+        "importPath": "src.micropython_servo_test",
+        "description": "src.micropython_servo_test",
+        "peekOfCode": "SERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees)\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees)\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)\ndef angle_to_duty(angle):\n    \"\"\"Convert angle (0-180) to duty cycle\"\"\"\n    duty = SERVO_MIN_DUTY + (angle / 180) * (SERVO_MAX_DUTY - SERVO_MIN_DUTY)\n    return int(duty)\nprint(\"Testing MicroPython servo with corrected duty cycles...\")\nservo = PWM(Pin(SERVO_PIN), SERVO_FREQ)",
+        "detail": "src.micropython_servo_test",
+        "documentation": {}
+    },
+    {
+        "label": "SERVO_MIN_DUTY",
+        "kind": 5,
+        "importPath": "src.micropython_servo_test",
+        "description": "src.micropython_servo_test",
+        "peekOfCode": "SERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees)\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees)\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)\ndef angle_to_duty(angle):\n    \"\"\"Convert angle (0-180) to duty cycle\"\"\"\n    duty = SERVO_MIN_DUTY + (angle / 180) * (SERVO_MAX_DUTY - SERVO_MIN_DUTY)\n    return int(duty)\nprint(\"Testing MicroPython servo with corrected duty cycles...\")\nservo = PWM(Pin(SERVO_PIN), SERVO_FREQ)\n# Test sequence - same as Arduino",
+        "detail": "src.micropython_servo_test",
+        "documentation": {}
+    },
+    {
+        "label": "SERVO_MAX_DUTY",
+        "kind": 5,
+        "importPath": "src.micropython_servo_test",
+        "description": "src.micropython_servo_test",
+        "peekOfCode": "SERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees)\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)\ndef angle_to_duty(angle):\n    \"\"\"Convert angle (0-180) to duty cycle\"\"\"\n    duty = SERVO_MIN_DUTY + (angle / 180) * (SERVO_MAX_DUTY - SERVO_MIN_DUTY)\n    return int(duty)\nprint(\"Testing MicroPython servo with corrected duty cycles...\")\nservo = PWM(Pin(SERVO_PIN), SERVO_FREQ)\n# Test sequence - same as Arduino\nangles = [90, 0, 180, 90, 45, 135, 90]",
+        "detail": "src.micropython_servo_test",
+        "documentation": {}
+    },
+    {
+        "label": "SERVO_CENTER_DUTY",
+        "kind": 5,
+        "importPath": "src.micropython_servo_test",
+        "description": "src.micropython_servo_test",
+        "peekOfCode": "SERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)\ndef angle_to_duty(angle):\n    \"\"\"Convert angle (0-180) to duty cycle\"\"\"\n    duty = SERVO_MIN_DUTY + (angle / 180) * (SERVO_MAX_DUTY - SERVO_MIN_DUTY)\n    return int(duty)\nprint(\"Testing MicroPython servo with corrected duty cycles...\")\nservo = PWM(Pin(SERVO_PIN), SERVO_FREQ)\n# Test sequence - same as Arduino\nangles = [90, 0, 180, 90, 45, 135, 90]\nfor angle in angles:",
+        "detail": "src.micropython_servo_test",
+        "documentation": {}
+    },
+    {
+        "label": "servo",
+        "kind": 5,
+        "importPath": "src.micropython_servo_test",
+        "description": "src.micropython_servo_test",
+        "peekOfCode": "servo = PWM(Pin(SERVO_PIN), SERVO_FREQ)\n# Test sequence - same as Arduino\nangles = [90, 0, 180, 90, 45, 135, 90]\nfor angle in angles:\n    duty = angle_to_duty(angle)\n    servo.duty(duty)\n    print(f\"Moving to {angle}° (duty: {duty})\")\n    time.sleep(2)\nservo.duty(0)  # Turn off servo\nprint(\"MicroPython test complete!\")",
+        "detail": "src.micropython_servo_test",
+        "documentation": {}
+    },
+    {
+        "label": "angles",
+        "kind": 5,
+        "importPath": "src.micropython_servo_test",
+        "description": "src.micropython_servo_test",
+        "peekOfCode": "angles = [90, 0, 180, 90, 45, 135, 90]\nfor angle in angles:\n    duty = angle_to_duty(angle)\n    servo.duty(duty)\n    print(f\"Moving to {angle}° (duty: {duty})\")\n    time.sleep(2)\nservo.duty(0)  # Turn off servo\nprint(\"MicroPython test complete!\")",
+        "detail": "src.micropython_servo_test",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess",
+        "kind": 2,
+        "importPath": "src.recognize",
+        "description": "src.recognize",
+        "peekOfCode": "def preprocess(aligned):\n    img = aligned.astype(np.float32)\n    img = (img - 127.5) / 127.5\n    img = np.transpose(img, (2, 0, 1))\n    img = np.expand_dims(img, axis=0)\n    return img\n# Load database and precompute mean embeddings\nwith open('../data/db/face_db.pkl', 'rb') as f:\n    db = pickle.load(f)\nreference = {}",
+        "detail": "src.recognize",
+        "documentation": {}
+    },
+    {
+        "label": "THRESHOLD",
+        "kind": 5,
+        "importPath": "src.recognize",
+        "description": "src.recognize",
+        "peekOfCode": "THRESHOLD = 0.62\ndetector = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')\nbase_options = python.BaseOptions(model_asset_path=\"../models/face_landmarker.task\")\noptions = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,\n    num_faces=1\n)\nface_mesh = vision.FaceLandmarker.create_from_options(options)\nsession = ort.InferenceSession(\"../models/embedder_arcface.onnx\")",
+        "detail": "src.recognize",
+        "documentation": {}
+    },
+    {
+        "label": "detector",
+        "kind": 5,
+        "importPath": "src.recognize",
+        "description": "src.recognize",
+        "peekOfCode": "detector = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')\nbase_options = python.BaseOptions(model_asset_path=\"../models/face_landmarker.task\")\noptions = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,\n    num_faces=1\n)\nface_mesh = vision.FaceLandmarker.create_from_options(options)\nsession = ort.InferenceSession(\"../models/embedder_arcface.onnx\")\nREF_POINTS = np.array([",
+        "detail": "src.recognize",
+        "documentation": {}
+    },
+    {
+        "label": "base_options",
+        "kind": 5,
+        "importPath": "src.recognize",
+        "description": "src.recognize",
+        "peekOfCode": "base_options = python.BaseOptions(model_asset_path=\"../models/face_landmarker.task\")\noptions = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,\n    num_faces=1\n)\nface_mesh = vision.FaceLandmarker.create_from_options(options)\nsession = ort.InferenceSession(\"../models/embedder_arcface.onnx\")\nREF_POINTS = np.array([\n    [38.2946, 51.6963],",
+        "detail": "src.recognize",
+        "documentation": {}
+    },
+    {
+        "label": "options",
+        "kind": 5,
+        "importPath": "src.recognize",
+        "description": "src.recognize",
+        "peekOfCode": "options = vision.FaceLandmarkerOptions(\n    base_options=base_options,\n    running_mode=vision.RunningMode.IMAGE,\n    num_faces=1\n)\nface_mesh = vision.FaceLandmarker.create_from_options(options)\nsession = ort.InferenceSession(\"../models/embedder_arcface.onnx\")\nREF_POINTS = np.array([\n    [38.2946, 51.6963],\n    [73.5318, 51.5014],",
+        "detail": "src.recognize",
+        "documentation": {}
+    },
+    {
+        "label": "face_mesh",
+        "kind": 5,
+        "importPath": "src.recognize",
+        "description": "src.recognize",
+        "peekOfCode": "face_mesh = vision.FaceLandmarker.create_from_options(options)\nsession = ort.InferenceSession(\"../models/embedder_arcface.onnx\")\nREF_POINTS = np.array([\n    [38.2946, 51.6963],\n    [73.5318, 51.5014],\n    [56.0252, 71.7366],\n    [41.5493, 92.3655],\n    [70.7299, 92.2041]\n], dtype=np.float32)\nINDICES = [33, 263, 1, 61, 291]",
+        "detail": "src.recognize",
+        "documentation": {}
+    },
+    {
+        "label": "session",
+        "kind": 5,
+        "importPath": "src.recognize",
+        "description": "src.recognize",
+        "peekOfCode": "session = ort.InferenceSession(\"../models/embedder_arcface.onnx\")\nREF_POINTS = np.array([\n    [38.2946, 51.6963],\n    [73.5318, 51.5014],\n    [56.0252, 71.7366],\n    [41.5493, 92.3655],\n    [70.7299, 92.2041]\n], dtype=np.float32)\nINDICES = [33, 263, 1, 61, 291]\ndef preprocess(aligned):",
+        "detail": "src.recognize",
+        "documentation": {}
+    },
+    {
+        "label": "REF_POINTS",
+        "kind": 5,
+        "importPath": "src.recognize",
+        "description": "src.recognize",
+        "peekOfCode": "REF_POINTS = np.array([\n    [38.2946, 51.6963],\n    [73.5318, 51.5014],\n    [56.0252, 71.7366],\n    [41.5493, 92.3655],\n    [70.7299, 92.2041]\n], dtype=np.float32)\nINDICES = [33, 263, 1, 61, 291]\ndef preprocess(aligned):\n    img = aligned.astype(np.float32)",
+        "detail": "src.recognize",
+        "documentation": {}
+    },
+    {
+        "label": "INDICES",
+        "kind": 5,
+        "importPath": "src.recognize",
+        "description": "src.recognize",
+        "peekOfCode": "INDICES = [33, 263, 1, 61, 291]\ndef preprocess(aligned):\n    img = aligned.astype(np.float32)\n    img = (img - 127.5) / 127.5\n    img = np.transpose(img, (2, 0, 1))\n    img = np.expand_dims(img, axis=0)\n    return img\n# Load database and precompute mean embeddings\nwith open('../data/db/face_db.pkl', 'rb') as f:\n    db = pickle.load(f)",
+        "detail": "src.recognize",
+        "documentation": {}
+    },
+    {
+        "label": "reference",
+        "kind": 5,
+        "importPath": "src.recognize",
+        "description": "src.recognize",
+        "peekOfCode": "reference = {}\nfor name, embs in db.items():\n    mean_emb = np.mean(np.array(embs), axis=0)\n    mean_emb /= np.linalg.norm(mean_emb)\n    reference[name] = mean_emb\ncap = cv2.VideoCapture(0)\n# Create resizable window\ncv2.namedWindow('Live Recognition', cv2.WINDOW_NORMAL)\ncv2.namedWindow('Aligned', cv2.WINDOW_NORMAL)\ncv2.resizeWindow('Live Recognition', 1280, 720)",
+        "detail": "src.recognize",
+        "documentation": {}
+    },
+    {
+        "label": "cap",
+        "kind": 5,
+        "importPath": "src.recognize",
+        "description": "src.recognize",
+        "peekOfCode": "cap = cv2.VideoCapture(0)\n# Create resizable window\ncv2.namedWindow('Live Recognition', cv2.WINDOW_NORMAL)\ncv2.namedWindow('Aligned', cv2.WINDOW_NORMAL)\ncv2.resizeWindow('Live Recognition', 1280, 720)\ncv2.resizeWindow('Aligned', 224, 224)\nprint(\"Recognition window is resizable!\")\nprint(\"Use mouse to resize or maximize the window\")\nwhile True:\n    ret, frame = cap.read()",
+        "detail": "src.recognize",
+        "documentation": {}
+    },
+    {
+        "label": "angle_to_duty",
+        "kind": 2,
+        "importPath": "src.servo_test",
+        "description": "src.servo_test",
+        "peekOfCode": "def angle_to_duty(angle):\n    \"\"\"Convert angle (0-180) to duty cycle\"\"\"\n    duty = SERVO_MIN_DUTY + (angle / 180) * (SERVO_MAX_DUTY - SERVO_MIN_DUTY)\n    return int(duty)\nprint(\"Testing servo motor...\")\nservo = PWM(Pin(SERVO_PIN), SERVO_FREQ)\n# Test sequence\nangles = [90, 0, 180, 90, 45, 135, 90]\nfor angle in angles:\n    duty = angle_to_duty(angle)",
+        "detail": "src.servo_test",
+        "documentation": {}
+    },
+    {
+        "label": "SERVO_PIN",
+        "kind": 5,
+        "importPath": "src.servo_test",
+        "description": "src.servo_test",
+        "peekOfCode": "SERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 40  # ~0.5ms pulse (0 degrees)\nSERVO_MAX_DUTY = 115  # ~2.5ms pulse (180 degrees)\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)\ndef angle_to_duty(angle):\n    \"\"\"Convert angle (0-180) to duty cycle\"\"\"\n    duty = SERVO_MIN_DUTY + (angle / 180) * (SERVO_MAX_DUTY - SERVO_MIN_DUTY)\n    return int(duty)\nprint(\"Testing servo motor...\")",
+        "detail": "src.servo_test",
+        "documentation": {}
+    },
+    {
+        "label": "SERVO_FREQ",
+        "kind": 5,
+        "importPath": "src.servo_test",
+        "description": "src.servo_test",
+        "peekOfCode": "SERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 40  # ~0.5ms pulse (0 degrees)\nSERVO_MAX_DUTY = 115  # ~2.5ms pulse (180 degrees)\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)\ndef angle_to_duty(angle):\n    \"\"\"Convert angle (0-180) to duty cycle\"\"\"\n    duty = SERVO_MIN_DUTY + (angle / 180) * (SERVO_MAX_DUTY - SERVO_MIN_DUTY)\n    return int(duty)\nprint(\"Testing servo motor...\")\nservo = PWM(Pin(SERVO_PIN), SERVO_FREQ)",
+        "detail": "src.servo_test",
+        "documentation": {}
+    },
+    {
+        "label": "SERVO_MIN_DUTY",
+        "kind": 5,
+        "importPath": "src.servo_test",
+        "description": "src.servo_test",
+        "peekOfCode": "SERVO_MIN_DUTY = 40  # ~0.5ms pulse (0 degrees)\nSERVO_MAX_DUTY = 115  # ~2.5ms pulse (180 degrees)\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)\ndef angle_to_duty(angle):\n    \"\"\"Convert angle (0-180) to duty cycle\"\"\"\n    duty = SERVO_MIN_DUTY + (angle / 180) * (SERVO_MAX_DUTY - SERVO_MIN_DUTY)\n    return int(duty)\nprint(\"Testing servo motor...\")\nservo = PWM(Pin(SERVO_PIN), SERVO_FREQ)\n# Test sequence",
+        "detail": "src.servo_test",
+        "documentation": {}
+    },
+    {
+        "label": "SERVO_MAX_DUTY",
+        "kind": 5,
+        "importPath": "src.servo_test",
+        "description": "src.servo_test",
+        "peekOfCode": "SERVO_MAX_DUTY = 115  # ~2.5ms pulse (180 degrees)\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)\ndef angle_to_duty(angle):\n    \"\"\"Convert angle (0-180) to duty cycle\"\"\"\n    duty = SERVO_MIN_DUTY + (angle / 180) * (SERVO_MAX_DUTY - SERVO_MIN_DUTY)\n    return int(duty)\nprint(\"Testing servo motor...\")\nservo = PWM(Pin(SERVO_PIN), SERVO_FREQ)\n# Test sequence\nangles = [90, 0, 180, 90, 45, 135, 90]",
+        "detail": "src.servo_test",
+        "documentation": {}
+    },
+    {
+        "label": "SERVO_CENTER_DUTY",
+        "kind": 5,
+        "importPath": "src.servo_test",
+        "description": "src.servo_test",
+        "peekOfCode": "SERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)\ndef angle_to_duty(angle):\n    \"\"\"Convert angle (0-180) to duty cycle\"\"\"\n    duty = SERVO_MIN_DUTY + (angle / 180) * (SERVO_MAX_DUTY - SERVO_MIN_DUTY)\n    return int(duty)\nprint(\"Testing servo motor...\")\nservo = PWM(Pin(SERVO_PIN), SERVO_FREQ)\n# Test sequence\nangles = [90, 0, 180, 90, 45, 135, 90]\nfor angle in angles:",
+        "detail": "src.servo_test",
+        "documentation": {}
+    },
+    {
+        "label": "servo",
+        "kind": 5,
+        "importPath": "src.servo_test",
+        "description": "src.servo_test",
+        "peekOfCode": "servo = PWM(Pin(SERVO_PIN), SERVO_FREQ)\n# Test sequence\nangles = [90, 0, 180, 90, 45, 135, 90]\nfor angle in angles:\n    duty = angle_to_duty(angle)\n    servo.duty(duty)\n    print(f\"Moving to {angle}° (duty: {duty})\")\n    time.sleep(2)\nservo.duty(0)  # Turn off servo\nprint(\"Test complete!\")",
+        "detail": "src.servo_test",
+        "documentation": {}
+    },
+    {
+        "label": "angles",
+        "kind": 5,
+        "importPath": "src.servo_test",
+        "description": "src.servo_test",
+        "peekOfCode": "angles = [90, 0, 180, 90, 45, 135, 90]\nfor angle in angles:\n    duty = angle_to_duty(angle)\n    servo.duty(duty)\n    print(f\"Moving to {angle}° (duty: {duty})\")\n    time.sleep(2)\nservo.duty(0)  # Turn off servo\nprint(\"Test complete!\")",
+        "detail": "src.servo_test",
+        "documentation": {}
+    },
+    {
+        "label": "on_mqtt_connect",
+        "kind": 2,
+        "importPath": "src.websocket_backend",
+        "description": "src.websocket_backend",
+        "peekOfCode": "def on_mqtt_connect(client, userdata, flags, rc):\n    \"\"\"Handle MQTT broker connection\"\"\"\n    if rc == 0:\n        print(f\"✓ MQTT Broker connected on port {MQTT_BROKER_PORT}\")\n        # Subscribe to team topics\n        client.subscribe(MQTT_TOPIC)\n        client.subscribe(MQTT_HEARTBEAT_TOPIC)\n        print(f\"✓ Subscribed to: {MQTT_TOPIC}\")\n        print(f\"✓ Subscribed to: {MQTT_HEARTBEAT_TOPIC}\")\n    else:",
+        "detail": "src.websocket_backend",
+        "documentation": {}
+    },
+    {
+        "label": "on_mqtt_message",
+        "kind": 2,
+        "importPath": "src.websocket_backend",
+        "description": "src.websocket_backend",
+        "peekOfCode": "def on_mqtt_message(client, userdata, msg):\n    \"\"\"Handle incoming MQTT messages\"\"\"\n    global latest_movement_data, latest_heartbeat_data\n    try:\n        topic = msg.topic\n        payload = msg.payload.decode('utf-8')\n        data = json.loads(payload)\n        # Add timestamp if not present\n        if 'timestamp' not in data:\n            data['timestamp'] = int(time.time())",
+        "detail": "src.websocket_backend",
+        "documentation": {}
+    },
+    {
+        "label": "init_mqtt_broker",
+        "kind": 2,
+        "importPath": "src.websocket_backend",
+        "description": "src.websocket_backend",
+        "peekOfCode": "def init_mqtt_broker():\n    \"\"\"Initialize MQTT broker client\"\"\"\n    global mqtt_client\n    try:\n        mqtt_client = mqtt.Client()\n        mqtt_client.on_connect = on_mqtt_connect\n        mqtt_client.on_message = on_mqtt_message\n        print(f\"Connecting to MQTT broker at {MQTT_BROKER_HOST}:{MQTT_BROKER_PORT}...\")\n        mqtt_client.connect(MQTT_BROKER_HOST, MQTT_BROKER_PORT, 60)\n        # Start MQTT loop in separate thread",
+        "detail": "src.websocket_backend",
+        "documentation": {}
+    },
+    {
+        "label": "TEAM_ID",
+        "kind": 5,
+        "importPath": "src.websocket_backend",
+        "description": "src.websocket_backend",
+        "peekOfCode": "TEAM_ID = \"sudoers\"  # Your unique team identifier\nMQTT_BROKER_HOST = \"157.173.101.159\"  # Your VPS MQTT broker\nMQTT_BROKER_PORT = 1883\nWEBSOCKET_PORT = 9002\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== GLOBAL VARIABLES =====================\nwebsocket_clients: Set[websockets.WebSocketServerProtocol] = set()\nmqtt_client = None\nlatest_movement_data = None",
+        "detail": "src.websocket_backend",
+        "documentation": {}
+    },
+    {
+        "label": "MQTT_BROKER_HOST",
+        "kind": 5,
+        "importPath": "src.websocket_backend",
+        "description": "src.websocket_backend",
+        "peekOfCode": "MQTT_BROKER_HOST = \"157.173.101.159\"  # Your VPS MQTT broker\nMQTT_BROKER_PORT = 1883\nWEBSOCKET_PORT = 9002\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== GLOBAL VARIABLES =====================\nwebsocket_clients: Set[websockets.WebSocketServerProtocol] = set()\nmqtt_client = None\nlatest_movement_data = None\nlatest_heartbeat_data = {}",
+        "detail": "src.websocket_backend",
+        "documentation": {}
+    },
+    {
+        "label": "MQTT_BROKER_PORT",
+        "kind": 5,
+        "importPath": "src.websocket_backend",
+        "description": "src.websocket_backend",
+        "peekOfCode": "MQTT_BROKER_PORT = 1883\nWEBSOCKET_PORT = 9002\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== GLOBAL VARIABLES =====================\nwebsocket_clients: Set[websockets.WebSocketServerProtocol] = set()\nmqtt_client = None\nlatest_movement_data = None\nlatest_heartbeat_data = {}\n# ===================== MQTT FUNCTIONS =====================",
+        "detail": "src.websocket_backend",
+        "documentation": {}
+    },
+    {
+        "label": "WEBSOCKET_PORT",
+        "kind": 5,
+        "importPath": "src.websocket_backend",
+        "description": "src.websocket_backend",
+        "peekOfCode": "WEBSOCKET_PORT = 9002\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== GLOBAL VARIABLES =====================\nwebsocket_clients: Set[websockets.WebSocketServerProtocol] = set()\nmqtt_client = None\nlatest_movement_data = None\nlatest_heartbeat_data = {}\n# ===================== MQTT FUNCTIONS =====================\ndef on_mqtt_connect(client, userdata, flags, rc):",
+        "detail": "src.websocket_backend",
+        "documentation": {}
+    },
+    {
+        "label": "MQTT_TOPIC",
+        "kind": 5,
+        "importPath": "src.websocket_backend",
+        "description": "src.websocket_backend",
+        "peekOfCode": "MQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== GLOBAL VARIABLES =====================\nwebsocket_clients: Set[websockets.WebSocketServerProtocol] = set()\nmqtt_client = None\nlatest_movement_data = None\nlatest_heartbeat_data = {}\n# ===================== MQTT FUNCTIONS =====================\ndef on_mqtt_connect(client, userdata, flags, rc):\n    \"\"\"Handle MQTT broker connection\"\"\"",
+        "detail": "src.websocket_backend",
+        "documentation": {}
+    },
+    {
+        "label": "MQTT_HEARTBEAT_TOPIC",
+        "kind": 5,
+        "importPath": "src.websocket_backend",
+        "description": "src.websocket_backend",
+        "peekOfCode": "MQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== GLOBAL VARIABLES =====================\nwebsocket_clients: Set[websockets.WebSocketServerProtocol] = set()\nmqtt_client = None\nlatest_movement_data = None\nlatest_heartbeat_data = {}\n# ===================== MQTT FUNCTIONS =====================\ndef on_mqtt_connect(client, userdata, flags, rc):\n    \"\"\"Handle MQTT broker connection\"\"\"\n    if rc == 0:",
+        "detail": "src.websocket_backend",
+        "documentation": {}
+    },
+    {
+        "label": "mqtt_client",
+        "kind": 5,
+        "importPath": "src.websocket_backend",
+        "description": "src.websocket_backend",
+        "peekOfCode": "mqtt_client = None\nlatest_movement_data = None\nlatest_heartbeat_data = {}\n# ===================== MQTT FUNCTIONS =====================\ndef on_mqtt_connect(client, userdata, flags, rc):\n    \"\"\"Handle MQTT broker connection\"\"\"\n    if rc == 0:\n        print(f\"✓ MQTT Broker connected on port {MQTT_BROKER_PORT}\")\n        # Subscribe to team topics\n        client.subscribe(MQTT_TOPIC)",
+        "detail": "src.websocket_backend",
+        "documentation": {}
+    },
+    {
+        "label": "latest_movement_data",
+        "kind": 5,
+        "importPath": "src.websocket_backend",
+        "description": "src.websocket_backend",
+        "peekOfCode": "latest_movement_data = None\nlatest_heartbeat_data = {}\n# ===================== MQTT FUNCTIONS =====================\ndef on_mqtt_connect(client, userdata, flags, rc):\n    \"\"\"Handle MQTT broker connection\"\"\"\n    if rc == 0:\n        print(f\"✓ MQTT Broker connected on port {MQTT_BROKER_PORT}\")\n        # Subscribe to team topics\n        client.subscribe(MQTT_TOPIC)\n        client.subscribe(MQTT_HEARTBEAT_TOPIC)",
+        "detail": "src.websocket_backend",
+        "documentation": {}
+    },
+    {
+        "label": "latest_heartbeat_data",
+        "kind": 5,
+        "importPath": "src.websocket_backend",
+        "description": "src.websocket_backend",
+        "peekOfCode": "latest_heartbeat_data = {}\n# ===================== MQTT FUNCTIONS =====================\ndef on_mqtt_connect(client, userdata, flags, rc):\n    \"\"\"Handle MQTT broker connection\"\"\"\n    if rc == 0:\n        print(f\"✓ MQTT Broker connected on port {MQTT_BROKER_PORT}\")\n        # Subscribe to team topics\n        client.subscribe(MQTT_TOPIC)\n        client.subscribe(MQTT_HEARTBEAT_TOPIC)\n        print(f\"✓ Subscribed to: {MQTT_TOPIC}\")",
+        "detail": "src.websocket_backend",
+        "documentation": {}
+    }
+]

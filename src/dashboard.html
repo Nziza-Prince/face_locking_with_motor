@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face-Locked Servo Dashboard</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@500&display=swap');
+
+        :root {
+            --bg-1: #14213d;
+            --bg-2: #0b162f;
+            --accent: #ff7a18;
+            --accent-2: #ffd166;
+            --mint: #06d6a0;
+            --danger: #ef476f;
+            --ink: #0f172a;
+            --card: rgba(255, 255, 255, 0.94);
+            --muted: #6b7280;
+            --border: rgba(255, 255, 255, 0.28);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
+            background: radial-gradient(circle at 15% 20%, #1f3f74 0, transparent 35%),
+                radial-gradient(circle at 85% 0, #1a5c4f 0, transparent 30%),
+                linear-gradient(160deg, var(--bg-1), var(--bg-2));
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            color: var(--ink);
+            padding: 20px;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background: linear-gradient(90deg, transparent 0 49%, rgba(255, 255, 255, 0.03) 50%, transparent 51%),
+                linear-gradient(transparent 0 49%, rgba(255, 255, 255, 0.03) 50%, transparent 51%);
+            background-size: 36px 36px;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 24px 28px;
+            border-radius: 18px;
+            box-shadow: 0 24px 48px rgba(4, 12, 28, 0.35);
+            border: 1px solid var(--border);
+            max-width: 1400px;
+            width: 100%;
+            margin: 0 auto 16px;
+        }
+
+        .header h1 {
+            font-size: clamp(1.8rem, 3vw, 2.6rem);
+            letter-spacing: 0.04em;
+            margin-bottom: 6px;
+            background: linear-gradient(110deg, var(--accent), #ff9340 35%, #ffa94d);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .team-info {
+            color: #334155;
+            font-size: 1rem;
+            font-family: 'IBM Plex Mono', monospace;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 16px;
+            max-width: 1400px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .card {
+            background: var(--card);
+            border-radius: 18px;
+            padding: 22px;
+            box-shadow: 0 20px 35px rgba(9, 17, 32, 0.28);
+            border: 1px solid var(--border);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent), var(--accent-2), var(--mint));
+        }
+
+        .card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 25px 45px rgba(8, 16, 34, 0.32);
+        }
+
+        .card h2 {
+            color: #0f172a;
+            margin-bottom: 16px;
+            font-size: 1.25rem;
+            letter-spacing: 0.02em;
+        }
+
+        .status-indicator {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            margin-right: 10px;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.15); opacity: 0.85; }
+        }
+
+        .status-connected {
+            background: var(--mint);
+            box-shadow: 0 0 0 8px rgba(6, 214, 160, 0.22);
+        }
+
+        .status-disconnected {
+            background: var(--danger);
+            box-shadow: 0 0 0 8px rgba(239, 71, 111, 0.22);
+        }
+
+        .movement-status {
+            font-size: clamp(1.4rem, 2.8vw, 2rem);
+            font-weight: 700;
+            text-align: center;
+            padding: 18px;
+            border-radius: 14px;
+            margin: 14px 0;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+
+        .status-move-left {
+            background: linear-gradient(125deg, #ff6b35, #ff9551);
+            color: #fff;
+        }
+
+        .status-move-right {
+            background: linear-gradient(125deg, #00b4d8, #2ec4b6);
+            color: #fff;
+        }
+
+        .status-centered {
+            background: linear-gradient(125deg, #00a878, #06d6a0);
+            color: #fff;
+        }
+
+        .status-no-face {
+            background: linear-gradient(125deg, #64748b, #475569);
+            color: #fff;
+        }
+
+        .status-unknown {
+            background: linear-gradient(125deg, #f59e0b, #f97316);
+            color: #fff;
+        }
+
+        .servo-display {
+            text-align: center;
+            margin: 14px 0;
+        }
+
+        .servo-angle {
+            font-size: clamp(2.2rem, 5vw, 3.2rem);
+            font-weight: 700;
+            background: linear-gradient(130deg, #ff7a18, #ffb347);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin: 10px 0 14px;
+        }
+
+        .servo-bar {
+            width: 100%;
+            height: 24px;
+            background: #e2e8f0;
+            border-radius: 999px;
+            overflow: hidden;
+            position: relative;
+            margin: 10px 0 16px;
+            border: 1px solid rgba(148, 163, 184, 0.35);
+        }
+
+        .servo-indicator {
+            height: 100%;
+            background: linear-gradient(90deg, #ff7a18, #ff9340, #ffd166);
+            transition: width 0.35s ease;
+            border-radius: 999px;
+            position: relative;
+            box-shadow: 0 8px 18px rgba(255, 122, 24, 0.35);
+        }
+
+        .servo-indicator::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            width: 10px;
+            height: 10px;
+            background: white;
+            border-radius: 50%;
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.85);
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin: 12px 0;
+        }
+
+        .info-item {
+            background: #f8fafc;
+            padding: 14px;
+            border-radius: 10px;
+            border-left: 4px solid var(--accent);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            position: relative;
+        }
+
+        .info-item:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 8px 16px rgba(15, 23, 42, 0.12);
+        }
+
+        .info-label {
+            font-size: 0.9em;
+            color: var(--muted);
+            margin-bottom: 4px;
+        }
+
+        .info-value {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: #1e293b;
+            word-break: break-all;
+        }
+
+        .heartbeat-list {
+            max-height: 220px;
+            overflow-y: auto;
+            padding-right: 4px;
+        }
+
+        .heartbeat-item {
+            background: #f8fafc;
+            padding: 10px 12px;
+            margin: 8px 0;
+            border-radius: 10px;
+            border-left: 4px solid var(--mint);
+        }
+
+        .timestamp {
+            font-size: 0.8rem;
+            color: #94a3b8;
+        }
+
+        .connection-status {
+            text-align: center;
+            margin: 8px 0 16px;
+            font-weight: 700;
+        }
+
+        .container .card:nth-child(1),
+        .container .card:nth-child(2) {
+            grid-column: span 6;
+        }
+
+        .container .card:nth-child(3),
+        .container .card:nth-child(4) {
+            grid-column: span 6;
+        }
+
+        @media (max-width: 960px) {
+            .container .card {
+                grid-column: span 12 !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 12px;
+            }
+
+            .container {
+                gap: 12px;
+            }
+
+            .card {
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Face-Locked Servo Command Center</h1>
+        <div class="team-info">TEAM Ghost Hunters · Vision to MQTT to Servo · Real-time Telemetry</div>
+    </div>
+
+    <div class="container">
+        <!-- Connection Status -->
+        <div class="card">
+            <h2>Connection Link</h2>
+            <div class="connection-status">
+                <span class="status-indicator" id="ws-indicator"></span>
+                <span id="ws-status">Connecting...</span>
+            </div>
+            <div class="info-item">
+                <div class="info-label">WebSocket Server</div>
+                <div class="info-value" id="ws-url">ws://157.173.101.159:9002</div>
+            </div>
+        </div>
+
+        <!-- Movement Status -->
+        <div class="card">
+            <h2>Movement Feed</h2>
+            <div class="movement-status" id="movement-status">
+                WAITING FOR DATA
+            </div>
+            <div class="info-grid">
+                <div class="info-item">
+                    <div class="info-label">Direction</div>
+                    <div class="info-value" id="direction">-</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Confidence</div>
+                    <div class="info-value" id="confidence">-</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Face Position</div>
+                    <div class="info-value" id="face-position">-</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Servo Control -->
+        <div class="card">
+            <h2>Servo Position</h2>
+            <div class="servo-display">
+                <div class="servo-angle" id="servo-angle">90°</div>
+                <div class="servo-bar">
+                    <div class="servo-indicator" id="servo-indicator"></div>
+                </div>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <div class="info-label">From Center</div>
+                        <div class="info-value" id="degrees-from-center">0°</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Target Angle</div>
+                        <div class="info-value" id="target-angle">90°</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- System Heartbeat -->
+        <div class="card">
+            <h2>System Heartbeat</h2>
+            <div class="heartbeat-list" id="heartbeat-list">
+                <div class="heartbeat-item">
+                    <div>Waiting for heartbeat data...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class Dashboard {
+            constructor() {
+                this.ws = null;
+                this.reconnectInterval = null;
+                this.heartbeatData = {};
+                this.wsUrl = 'ws://157.173.101.159:9002'; // Change to your VPS IP:9002
+
+                this.init();
+            }
+
+            init() {
+                this.connectWebSocket();
+                this.updateConnectionStatus(false);
+            }
+
+            connectWebSocket() {
+                try {
+                    console.log(`Connecting to WebSocket: ${this.wsUrl}`);
+                    this.ws = new WebSocket(this.wsUrl);
+
+                    this.ws.onopen = () => {
+                        console.log('WebSocket connected');
+                        this.updateConnectionStatus(true);
+                        this.clearReconnectInterval();
+                    };
+
+                    this.ws.onmessage = (event) => {
+                        try {
+                            const data = JSON.parse(event.data);
+                            this.handleMessage(data);
+                        } catch (error) {
+                            console.error('Error parsing message:', error);
+                        }
+                    };
+
+                    this.ws.onclose = () => {
+                        console.log('WebSocket disconnected');
+                        this.updateConnectionStatus(false);
+                        this.scheduleReconnect();
+                    };
+                    this.ws.onerror = (error) => {
+                        console.error('WebSocket error:', error);
+                        this.updateConnectionStatus(false);
+                    };
+                } catch (error) {
+                    console.error('Error creating WebSocket:', error);
+                    this.scheduleReconnect();
+                }
+            }
+
+            handleMessage(data) {
+                console.log('Received message:', data);
+
+                switch (data.type) {
+                    case 'welcome':
+                        console.log('Welcome message:', data.message);
+                        break;
+
+                    case 'mqtt_message':
+                        if (data.topic.includes('movement')) {
+                            this.updateMovementStatus(data.data);
+                        } else if (data.topic.includes('heartbeat')) {
+                            this.updateHeartbeat(data.data);
+                        }
+                        break;
+
+                    case 'pong':
+                        console.log('Pong received');
+                        break;
+
+                    default:
+                        console.log('Unknown message type:', data.type);
+                }
+            }
+
+            updateMovementStatus(data) {
+                const status = data.status || 'UNKNOWN';
+                const confidence = data.confidence || 0;
+                const servoAngle = data.servo_angle || 90;
+                const direction = data.direction || 'UNKNOWN';
+                const facePosition = data.face_position || 0;
+                const degreesFromCenter = data.degrees_from_center || 0;
+
+                const statusElement = document.getElementById('movement-status');
+                statusElement.textContent = status.replace('_', ' ');
+                statusElement.className = 'movement-status';
+
+                switch (status) {
+                    case 'MOVE_LEFT':
+                        statusElement.classList.add('status-move-left');
+                        break;
+                    case 'MOVE_RIGHT':
+                        statusElement.classList.add('status-move-right');
+                        break;
+                    case 'CENTERED':
+                        statusElement.classList.add('status-centered');
+                        break;
+                    case 'NO_FACE':
+                        statusElement.classList.add('status-no-face');
+                        break;
+                    default:
+                        statusElement.classList.add('status-unknown');
+                }
+
+                document.getElementById('direction').textContent = direction;
+                document.getElementById('confidence').textContent = `${(confidence * 100).toFixed(1)}%`;
+                document.getElementById('face-position').textContent = `${facePosition}px`;
+
+                document.getElementById('servo-angle').textContent = `${servoAngle}°`;
+                document.getElementById('target-angle').textContent = `${servoAngle}°`;
+                document.getElementById('degrees-from-center').textContent = `${degreesFromCenter}°`;
+
+                const servoIndicator = document.getElementById('servo-indicator');
+                servoIndicator.style.width = `${(servoAngle / 180) * 100}%`;
+            }
+
+            updateHeartbeat(data) {
+                const node = data.node || 'unknown';
+                const status = data.status || 'UNKNOWN';
+                const timestamp = data.timestamp || Date.now();
+
+                this.heartbeatData[node] = {
+                    status: status,
+                    timestamp: timestamp
+                };
+                this.renderHeartbeatList();
+            }
+
+            renderHeartbeatList() {
+                const heartbeatList = document.getElementById('heartbeat-list');
+                heartbeatList.innerHTML = '';
+
+                Object.entries(this.heartbeatData).forEach(([node, data]) => {
+                    const item = document.createElement('div');
+                    item.className = 'heartbeat-item';
+
+                    const time = new Date(data.timestamp * 1000);
+                    const timeStr = time.toLocaleTimeString();
+
+                    item.innerHTML = `
+                        <div><strong>${node.toUpperCase()}</strong>: ${data.status}</div>
+                        <div class="timestamp">${timeStr}</div>
+                    `;
+
+                    heartbeatList.appendChild(item);
+                });
+
+                if (Object.keys(this.heartbeatData).length === 0) {
+                    heartbeatList.innerHTML = '<div class="heartbeat-item"><div>Waiting for heartbeat data...</div></div>';
+                }
+            }
+
+            updateConnectionStatus(connected) {
+                const indicator = document.getElementById('ws-indicator');
+                const status = document.getElementById('ws-status');
+
+                if (connected) {
+                    indicator.className = 'status-indicator status-connected';
+                    status.textContent = 'Connected';
+                } else {
+                    indicator.className = 'status-indicator status-disconnected';
+                    status.textContent = 'Disconnected';
+                }
+            }
+
+            scheduleReconnect() {
+                if (this.reconnectInterval) return;
+
+                this.reconnectInterval = setInterval(() => {
+                    console.log('Attempting to reconnect...');
+                    this.connectWebSocket();
+                }, 5000);
+            }
+
+            clearReconnectInterval() {
+                if (this.reconnectInterval) {
+                    clearInterval(this.reconnectInterval);
+                    this.reconnectInterval = null;
+                }
+            }
+            startPingInterval() {
+                setInterval(() => {
+                    if (this.ws && this.ws.readyState === WebSocket.OPEN) {
+                        this.ws.send(JSON.stringify({ type: 'ping' }));
+                    }
+                }, 30000);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const dashboard = new Dashboard();
+            dashboard.startPingInterval();
+        });
+    </script>
+</body>
+</html>
