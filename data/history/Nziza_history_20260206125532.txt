@@ -1,0 +1,26 @@
+Face Lock History for: Nziza
+Session started: 2026-02-06 12:55:32
+======================================================================
+
+2026-02-06 12:55:32.392 | LOCK            | Face locked onto Nziza
+2026-02-06 12:55:42.488 | BLINK           | Eye blink detected (EAR=0.191)
+2026-02-06 12:55:44.712 | BLINK           | Eye blink detected (EAR=0.197)
+2026-02-06 12:55:45.393 | MOVE_RIGHT      | Face moved right (x=182.5)
+2026-02-06 12:55:46.108 | BLINK           | Eye blink detected (EAR=0.170)
+2026-02-06 12:55:46.108 | MOVE_RIGHT      | Face moved right (x=237.5)
+2026-02-06 12:55:47.463 | MOVE_RIGHT      | Face moved right (x=304.0)
+2026-02-06 12:55:48.067 | BLINK           | Eye blink detected (EAR=0.093)
+2026-02-06 12:55:48.067 | MOVE_RIGHT      | Face moved right (x=346.0)
+2026-02-06 12:55:48.652 | MOVE_RIGHT      | Face moved right (x=480.5)
+2026-02-06 12:55:49.235 | MOVE_LEFT       | Face moved left (x=438.0)
+2026-02-06 12:55:50.428 | MOVE_LEFT       | Face moved left (x=334.5)
+2026-02-06 12:55:51.098 | MOVE_LEFT       | Face moved left (x=293.5)
+2026-02-06 12:55:52.161 | BLINK           | Eye blink detected (EAR=0.209)
+2026-02-06 12:55:53.376 | BLINK           | Eye blink detected (EAR=0.205)
+2026-02-06 12:55:57.894 | BLINK           | Eye blink detected (EAR=0.202)
+2026-02-06 12:56:02.696 | UNLOCK          | Session ended
+
+======================================================================
+Session ended: 2026-02-06 12:56:02
+Duration: 30.3 seconds
+Total actions recorded: 17

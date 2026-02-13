@@ -2,7 +2,6 @@
 
 **Team: Ghost Hunters**
 **Student: Nkotanyi Nziza Prince**
-**Live Dashboard: http://157.173.101.159:9002/src/dashboard.html**
 
 ## Project Summary
 This project implements a distributed face-tracking pipeline: a PC detects and tracks faces, publishes movement events over MQTT, and an ESP8266 drives a servo from those commands. Team-scoped topics are used so multiple groups can share one broker cleanly.

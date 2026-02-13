@@ -1,0 +1,13 @@
+Face Lock History for: Nziza
+Session started: 2026-02-06 14:54:22
+======================================================================
+
+2026-02-06 14:54:22.468 | LOCK            | Face locked onto Nziza
+2026-02-06 14:54:24.704 | MOVE_RIGHT      | Face moved right (x=487.5)
+2026-02-06 14:54:25.706 | MOVE_RIGHT      | Face moved right (x=540.5)
+2026-02-06 14:54:27.267 | UNLOCK          | Face lost for too long
+
+======================================================================
+Session ended: 2026-02-06 14:54:27
+Duration: 4.8 seconds
+Total actions recorded: 4

@@ -23,11 +23,11 @@ CONSECUTIVE_SMILE_FRAMES = 3
 MAX_FACES = 10  # Maximum faces to detect/process per frame
 
 # ===================== MQTT CONFIGURATION =====================
-TEAM_ID = "sudoers"  # Your unique team identifier
-MQTT_BROKER = "157.173.101.159"  # Your VPS MQTT broker
+TEAM_ID = "ghost_hunters"  # Must match controller/backend team
+MQTT_BROKER = "157.173.101.159"  # MQTT broker host
 MQTT_PORT = 1883
-MQTT_TOPIC = f"vision/{TEAM_ID}/movement"
-MQTT_HEARTBEAT_TOPIC = f"vision/{TEAM_ID}/heartbeat"
+MQTT_TOPIC = "vision/Ghost_Hunters/movement"
+MQTT_HEARTBEAT_TOPIC = "vision/Ghost_Hunters/heartbeat"
 
 # ===================== SERVO CONFIGURATION =====================
 SERVO_MIN_ANGLE = 0

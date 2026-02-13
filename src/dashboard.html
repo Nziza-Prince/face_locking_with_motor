@@ -397,14 +397,26 @@
                 this.ws = null;
                 this.reconnectInterval = null;
                 this.heartbeatData = {};
-                this.wsUrl = 'ws://157.173.101.159:9002'; // Change to your VPS IP:9002
+                this.wsUrl = this.getWebSocketUrl();
 
                 this.init();
+            }
+
+            getWebSocketUrl() {
+                const params = new URLSearchParams(window.location.search);
+                const override = params.get('ws');
+                if (override) return override;
+
+                const host = window.location.hostname;
+                const isHttps = window.location.protocol === 'https:';
+                if (!host) return 'ws://157.173.101.159:9002';
+                return `${isHttps ? 'wss' : 'ws'}://${host}:9002`;
             }
 
             init() {
                 this.connectWebSocket();
                 this.updateConnectionStatus(false);
+                document.getElementById('ws-url').textContent = this.wsUrl;
             }
 
             connectWebSocket() {

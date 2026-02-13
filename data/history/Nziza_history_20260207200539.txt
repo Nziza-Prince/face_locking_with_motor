@@ -1,0 +1,28 @@
+Face Lock History for: Nziza
+Session started: 2026-02-07 20:05:39
+======================================================================
+
+2026-02-07 20:05:39.470 | LOCK            | Face locked onto Nziza
+2026-02-07 20:05:42.107 | BLINK           | Eye blink detected (EAR=0.115)
+2026-02-07 20:05:45.172 | MOVE_LEFT       | Face moved left (x=657.0)
+2026-02-07 20:05:50.907 | BLINK           | Eye blink detected (EAR=0.178)
+2026-02-07 20:05:56.641 | MOVE_LEFT       | Face moved left (x=585.5)
+2026-02-07 20:05:57.015 | MOVE_LEFT       | Face moved left (x=447.5)
+2026-02-07 20:05:57.314 | MOVE_RIGHT      | Face moved right (x=635.0)
+2026-02-07 20:05:57.589 | MOVE_RIGHT      | Face moved right (x=844.0)
+2026-02-07 20:05:57.883 | MOVE_RIGHT      | Face moved right (x=946.0)
+2026-02-07 20:05:58.410 | MOVE_LEFT       | Face moved left (x=824.0)
+2026-02-07 20:05:58.698 | MOVE_LEFT       | Face moved left (x=735.0)
+2026-02-07 20:05:59.112 | MOVE_LEFT       | Face moved left (x=603.5)
+2026-02-07 20:06:00.054 | MOVE_LEFT       | Face moved left (x=472.0)
+2026-02-07 20:06:00.421 | MOVE_LEFT       | Face moved left (x=362.5)
+2026-02-07 20:06:00.698 | MOVE_RIGHT      | Face moved right (x=596.0)
+2026-02-07 20:06:00.975 | MOVE_RIGHT      | Face moved right (x=757.0)
+2026-02-07 20:06:02.192 | MOVE_LEFT       | Face moved left (x=646.5)
+2026-02-07 20:06:02.638 | MOVE_LEFT       | Face moved left (x=612.5)
+2026-02-07 20:06:09.038 | UNLOCK          | Face lost for too long
+
+======================================================================
+Session ended: 2026-02-07 20:06:09
+Duration: 29.9 seconds
+Total actions recorded: 19

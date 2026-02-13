@@ -607,7 +607,7 @@
         "kind": 5,
         "importPath": "src.esp8266_fixed",
         "description": "src.esp8266_fixed",
-        "peekOfCode": "TEAM_ID = \"minister\"  # Must match PC client team_id\nMQTT_BROKER = \"157.173.101.159\"  # Replace with your VPS IP address\nMQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration - CORRECTED VALUES\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - WORKING VALUES\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - WORKING VALUES",
+        "peekOfCode": "TEAM_ID = \"ghost_hunters\"  # Must match PC client team_id\nMQTT_BROKER = \"157.173.101.159\"  # MQTT broker host\nMQTT_PORT = 1883\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration - CORRECTED VALUES\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - WORKING VALUES\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - WORKING VALUES",
         "detail": "src.esp8266_fixed",
         "documentation": {}
     },
@@ -616,7 +616,7 @@
         "kind": 5,
         "importPath": "src.esp8266_fixed",
         "description": "src.esp8266_fixed",
-        "peekOfCode": "MQTT_BROKER = \"157.173.101.159\"  # Replace with your VPS IP address\nMQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration - CORRECTED VALUES\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - WORKING VALUES\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - WORKING VALUES\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees) - WORKING VALUES",
+        "peekOfCode": "MQTT_BROKER = \"157.173.101.159\"  # MQTT broker host\nMQTT_PORT = 1883\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration - CORRECTED VALUES\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - WORKING VALUES\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - WORKING VALUES\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees) - WORKING VALUES",
         "detail": "src.esp8266_fixed",
         "documentation": {}
     },
@@ -625,7 +625,7 @@
         "kind": 5,
         "importPath": "src.esp8266_fixed",
         "description": "src.esp8266_fixed",
-        "peekOfCode": "MQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration - CORRECTED VALUES\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - WORKING VALUES\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - WORKING VALUES\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees) - WORKING VALUES\n# WiFi configuration",
+        "peekOfCode": "MQTT_PORT = 1883\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration - CORRECTED VALUES\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - WORKING VALUES\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - WORKING VALUES\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees) - WORKING VALUES\n# WiFi configuration",
         "detail": "src.esp8266_fixed",
         "documentation": {}
     },
@@ -634,7 +634,7 @@
         "kind": 5,
         "importPath": "src.esp8266_fixed",
         "description": "src.esp8266_fixed",
-        "peekOfCode": "MQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration - CORRECTED VALUES\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - WORKING VALUES\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - WORKING VALUES\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees) - WORKING VALUES\n# WiFi configuration\nWIFI_SSID = \"RCA\"  # Replace with your WiFi SSID",
+        "peekOfCode": "MQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration - CORRECTED VALUES\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - WORKING VALUES\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - WORKING VALUES\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees) - WORKING VALUES\n# WiFi configuration\nWIFI_SSID = \"RCA\"  # Replace with your WiFi SSID",
         "detail": "src.esp8266_fixed",
         "documentation": {}
     },
@@ -823,7 +823,7 @@
         "kind": 5,
         "importPath": "src.esp8266_servo_controller",
         "description": "src.esp8266_servo_controller",
-        "peekOfCode": "TEAM_ID = \"minister\"  # Must match PC client team_id\nMQTT_BROKER = \"157.173.101.159\"  # Replace with your VPS IP address\nMQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - adjusted for SG90\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - adjusted for SG90",
+        "peekOfCode": "TEAM_ID = \"ghost_hunters\"  # Must match PC client team_id\nMQTT_BROKER = \"157.173.101.159\"  # MQTT broker host\nMQTT_PORT = 1883\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - adjusted for SG90\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - adjusted for SG90",
         "detail": "src.esp8266_servo_controller",
         "documentation": {}
     },
@@ -832,7 +832,7 @@
         "kind": 5,
         "importPath": "src.esp8266_servo_controller",
         "description": "src.esp8266_servo_controller",
-        "peekOfCode": "MQTT_BROKER = \"157.173.101.159\"  # Replace with your VPS IP address\nMQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - adjusted for SG90\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - adjusted for SG90\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)",
+        "peekOfCode": "MQTT_BROKER = \"157.173.101.159\"  # MQTT broker host\nMQTT_PORT = 1883\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - adjusted for SG90\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - adjusted for SG90\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)",
         "detail": "src.esp8266_servo_controller",
         "documentation": {}
     },
@@ -841,7 +841,7 @@
         "kind": 5,
         "importPath": "src.esp8266_servo_controller",
         "description": "src.esp8266_servo_controller",
-        "peekOfCode": "MQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - adjusted for SG90\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - adjusted for SG90\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)\n# WiFi configuration",
+        "peekOfCode": "MQTT_PORT = 1883\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - adjusted for SG90\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - adjusted for SG90\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)\n# WiFi configuration",
         "detail": "src.esp8266_servo_controller",
         "documentation": {}
     },
@@ -850,7 +850,7 @@
         "kind": 5,
         "importPath": "src.esp8266_servo_controller",
         "description": "src.esp8266_servo_controller",
-        "peekOfCode": "MQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - adjusted for SG90\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - adjusted for SG90\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)\n# WiFi configuration\nWIFI_SSID = \"RCA\"  # Replace with your WiFi SSID",
+        "peekOfCode": "MQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_CLIENT_ID = f\"esp8266_{TEAM_ID}\"\n# Servo configuration\nSERVO_PIN = 2  # GPIO pin for servo (D4 on NodeMCU)\nSERVO_FREQ = 50  # 50Hz for standard servos\nSERVO_MIN_DUTY = 26  # ~0.5ms pulse (0 degrees) - adjusted for SG90\nSERVO_MAX_DUTY = 128  # ~2.5ms pulse (180 degrees) - adjusted for SG90\nSERVO_CENTER_DUTY = 77  # ~1.5ms pulse (90 degrees)\n# WiFi configuration\nWIFI_SSID = \"RCA\"  # Replace with your WiFi SSID",
         "detail": "src.esp8266_servo_controller",
         "documentation": {}
     },
@@ -1111,7 +1111,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "THRESHOLD = 0.62  # Face recognition similarity threshold\nTARGET_NAME = input(\"Enter the identity to lock onto (e.g., your name): \").strip().lower()\nMISS_TOLERANCE = 20  # Frames to tolerate no target before unlock\nMOVEMENT_THRESHOLD = 40  # Adjusted for full-frame pixel scale\nBLINK_EAR_THRESHOLD = 0.21\nSMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"sudoers\"  # Your unique team identifier",
+        "peekOfCode": "THRESHOLD = 0.62  # Face recognition similarity threshold\nTARGET_NAME = input(\"Enter the identity to lock onto (e.g., your name): \").strip().lower()\nMISS_TOLERANCE = 20  # Frames to tolerate no target before unlock\nMOVEMENT_THRESHOLD = 40  # Adjusted for full-frame pixel scale\nBLINK_EAR_THRESHOLD = 0.21\nSMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"ghost_hunters\"  # Must match controller/backend team",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1120,7 +1120,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "TARGET_NAME = input(\"Enter the identity to lock onto (e.g., your name): \").strip().lower()\nMISS_TOLERANCE = 20  # Frames to tolerate no target before unlock\nMOVEMENT_THRESHOLD = 40  # Adjusted for full-frame pixel scale\nBLINK_EAR_THRESHOLD = 0.21\nSMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"sudoers\"  # Your unique team identifier\nMQTT_BROKER = \"157.173.101.159\"  # Your VPS MQTT broker",
+        "peekOfCode": "TARGET_NAME = input(\"Enter the identity to lock onto (e.g., your name): \").strip().lower()\nMISS_TOLERANCE = 20  # Frames to tolerate no target before unlock\nMOVEMENT_THRESHOLD = 40  # Adjusted for full-frame pixel scale\nBLINK_EAR_THRESHOLD = 0.21\nSMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"ghost_hunters\"  # Must match controller/backend team\nMQTT_BROKER = \"157.173.101.159\"  # MQTT broker host",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1129,7 +1129,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "MISS_TOLERANCE = 20  # Frames to tolerate no target before unlock\nMOVEMENT_THRESHOLD = 40  # Adjusted for full-frame pixel scale\nBLINK_EAR_THRESHOLD = 0.21\nSMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"sudoers\"  # Your unique team identifier\nMQTT_BROKER = \"157.173.101.159\"  # Your VPS MQTT broker\nMQTT_PORT = 1883",
+        "peekOfCode": "MISS_TOLERANCE = 20  # Frames to tolerate no target before unlock\nMOVEMENT_THRESHOLD = 40  # Adjusted for full-frame pixel scale\nBLINK_EAR_THRESHOLD = 0.21\nSMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"ghost_hunters\"  # Must match controller/backend team\nMQTT_BROKER = \"157.173.101.159\"  # MQTT broker host\nMQTT_PORT = 1883",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1138,7 +1138,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "MOVEMENT_THRESHOLD = 40  # Adjusted for full-frame pixel scale\nBLINK_EAR_THRESHOLD = 0.21\nSMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"sudoers\"  # Your unique team identifier\nMQTT_BROKER = \"157.173.101.159\"  # Your VPS MQTT broker\nMQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"",
+        "peekOfCode": "MOVEMENT_THRESHOLD = 40  # Adjusted for full-frame pixel scale\nBLINK_EAR_THRESHOLD = 0.21\nSMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"ghost_hunters\"  # Must match controller/backend team\nMQTT_BROKER = \"157.173.101.159\"  # MQTT broker host\nMQTT_PORT = 1883\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1147,7 +1147,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "BLINK_EAR_THRESHOLD = 0.21\nSMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"sudoers\"  # Your unique team identifier\nMQTT_BROKER = \"157.173.101.159\"  # Your VPS MQTT broker\nMQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"",
+        "peekOfCode": "BLINK_EAR_THRESHOLD = 0.21\nSMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"ghost_hunters\"  # Must match controller/backend team\nMQTT_BROKER = \"157.173.101.159\"  # MQTT broker host\nMQTT_PORT = 1883\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1156,7 +1156,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "SMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"sudoers\"  # Your unique team identifier\nMQTT_BROKER = \"157.173.101.159\"  # Your VPS MQTT broker\nMQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================",
+        "peekOfCode": "SMILE_CONFIDENCE_THRESHOLD = 0.65\nCONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"ghost_hunters\"  # Must match controller/backend team\nMQTT_BROKER = \"157.173.101.159\"  # MQTT broker host\nMQTT_PORT = 1883\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1165,7 +1165,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "CONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"sudoers\"  # Your unique team identifier\nMQTT_BROKER = \"157.173.101.159\"  # Your VPS MQTT broker\nMQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0",
+        "peekOfCode": "CONSECUTIVE_SMILE_FRAMES = 3\nMAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"ghost_hunters\"  # Must match controller/backend team\nMQTT_BROKER = \"157.173.101.159\"  # MQTT broker host\nMQTT_PORT = 1883\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1174,7 +1174,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "MAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"sudoers\"  # Your unique team identifier\nMQTT_BROKER = \"157.173.101.159\"  # Your VPS MQTT broker\nMQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180",
+        "peekOfCode": "MAX_FACES = 10  # Maximum faces to detect/process per frame\n# ===================== MQTT CONFIGURATION =====================\nTEAM_ID = \"ghost_hunters\"  # Must match controller/backend team\nMQTT_BROKER = \"157.173.101.159\"  # MQTT broker host\nMQTT_PORT = 1883\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1183,7 +1183,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "TEAM_ID = \"sudoers\"  # Your unique team identifier\nMQTT_BROKER = \"157.173.101.159\"  # Your VPS MQTT broker\nMQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement",
+        "peekOfCode": "TEAM_ID = \"ghost_hunters\"  # Must match controller/backend team\nMQTT_BROKER = \"157.173.101.159\"  # MQTT broker host\nMQTT_PORT = 1883\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1192,7 +1192,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "MQTT_BROKER = \"157.173.101.159\"  # Your VPS MQTT broker\nMQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================",
+        "peekOfCode": "MQTT_BROKER = \"157.173.101.159\"  # MQTT broker host\nMQTT_PORT = 1883\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1201,7 +1201,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "MQTT_PORT = 1883\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock",
+        "peekOfCode": "MQTT_PORT = 1883\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1210,7 +1210,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "MQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking",
+        "peekOfCode": "MQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1219,7 +1219,7 @@
         "kind": 5,
         "importPath": "src.face_locking",
         "description": "src.face_locking",
-        "peekOfCode": "MQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking\nMIN_FACE_SIZE = 50  # Minimum face size to process",
+        "peekOfCode": "MQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== SERVO CONFIGURATION =====================\nSERVO_MIN_ANGLE = 0\nSERVO_MAX_ANGLE = 180\nFRAME_WIDTH = 1280  # Camera frame width\nSERVO_SMOOTHING = 0.3  # Smoothing factor for servo movement\n# ===================== PERFORMANCE OPTIMIZATION =====================\nTRACKING_MODE = True  # Start in tracking mode after lock\nPROCESS_EVERY_N_FRAMES = 3  # Process every Nth frame when tracking\nMIN_FACE_SIZE = 50  # Minimum face size to process",
         "detail": "src.face_locking",
         "documentation": {}
     },
@@ -1885,7 +1885,7 @@
         "kind": 5,
         "importPath": "src.websocket_backend",
         "description": "src.websocket_backend",
-        "peekOfCode": "TEAM_ID = \"sudoers\"  # Your unique team identifier\nMQTT_BROKER_HOST = \"157.173.101.159\"  # Your VPS MQTT broker\nMQTT_BROKER_PORT = 1883\nWEBSOCKET_PORT = 9002\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== GLOBAL VARIABLES =====================\nwebsocket_clients: Set[websockets.WebSocketServerProtocol] = set()\nmqtt_client = None\nlatest_movement_data = None",
+        "peekOfCode": "TEAM_ID = \"ghost_hunters\"  # Must match publisher/controller team\nMQTT_BROKER_HOST = \"157.173.101.159\"  # MQTT broker host\nMQTT_BROKER_PORT = 1883\nWEBSOCKET_PORT = 9002\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== GLOBAL VARIABLES =====================\nwebsocket_clients: Set[websockets.WebSocketServerProtocol] = set()\nmqtt_client = None\nlatest_movement_data = None",
         "detail": "src.websocket_backend",
         "documentation": {}
     },
@@ -1894,7 +1894,7 @@
         "kind": 5,
         "importPath": "src.websocket_backend",
         "description": "src.websocket_backend",
-        "peekOfCode": "MQTT_BROKER_HOST = \"157.173.101.159\"  # Your VPS MQTT broker\nMQTT_BROKER_PORT = 1883\nWEBSOCKET_PORT = 9002\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== GLOBAL VARIABLES =====================\nwebsocket_clients: Set[websockets.WebSocketServerProtocol] = set()\nmqtt_client = None\nlatest_movement_data = None\nlatest_heartbeat_data = {}",
+        "peekOfCode": "MQTT_BROKER_HOST = \"157.173.101.159\"  # MQTT broker host\nMQTT_BROKER_PORT = 1883\nWEBSOCKET_PORT = 9002\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== GLOBAL VARIABLES =====================\nwebsocket_clients: Set[websockets.WebSocketServerProtocol] = set()\nmqtt_client = None\nlatest_movement_data = None\nlatest_heartbeat_data = {}",
         "detail": "src.websocket_backend",
         "documentation": {}
     },
@@ -1903,7 +1903,7 @@
         "kind": 5,
         "importPath": "src.websocket_backend",
         "description": "src.websocket_backend",
-        "peekOfCode": "MQTT_BROKER_PORT = 1883\nWEBSOCKET_PORT = 9002\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== GLOBAL VARIABLES =====================\nwebsocket_clients: Set[websockets.WebSocketServerProtocol] = set()\nmqtt_client = None\nlatest_movement_data = None\nlatest_heartbeat_data = {}\n# ===================== MQTT FUNCTIONS =====================",
+        "peekOfCode": "MQTT_BROKER_PORT = 1883\nWEBSOCKET_PORT = 9002\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== GLOBAL VARIABLES =====================\nwebsocket_clients: Set[websockets.WebSocketServerProtocol] = set()\nmqtt_client = None\nlatest_movement_data = None\nlatest_heartbeat_data = {}\n# ===================== MQTT FUNCTIONS =====================",
         "detail": "src.websocket_backend",
         "documentation": {}
     },
@@ -1912,7 +1912,7 @@
         "kind": 5,
         "importPath": "src.websocket_backend",
         "description": "src.websocket_backend",
-        "peekOfCode": "WEBSOCKET_PORT = 9002\nMQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== GLOBAL VARIABLES =====================\nwebsocket_clients: Set[websockets.WebSocketServerProtocol] = set()\nmqtt_client = None\nlatest_movement_data = None\nlatest_heartbeat_data = {}\n# ===================== MQTT FUNCTIONS =====================\ndef on_mqtt_connect(client, userdata, flags, rc):",
+        "peekOfCode": "WEBSOCKET_PORT = 9002\nMQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== GLOBAL VARIABLES =====================\nwebsocket_clients: Set[websockets.WebSocketServerProtocol] = set()\nmqtt_client = None\nlatest_movement_data = None\nlatest_heartbeat_data = {}\n# ===================== MQTT FUNCTIONS =====================\ndef on_mqtt_connect(client, userdata, flags, rc):",
         "detail": "src.websocket_backend",
         "documentation": {}
     },
@@ -1921,7 +1921,7 @@
         "kind": 5,
         "importPath": "src.websocket_backend",
         "description": "src.websocket_backend",
-        "peekOfCode": "MQTT_TOPIC = f\"vision/{TEAM_ID}/movement\"\nMQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== GLOBAL VARIABLES =====================\nwebsocket_clients: Set[websockets.WebSocketServerProtocol] = set()\nmqtt_client = None\nlatest_movement_data = None\nlatest_heartbeat_data = {}\n# ===================== MQTT FUNCTIONS =====================\ndef on_mqtt_connect(client, userdata, flags, rc):\n    \"\"\"Handle MQTT broker connection\"\"\"",
+        "peekOfCode": "MQTT_TOPIC = \"vision/Ghost_Hunters/movement\"\nMQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== GLOBAL VARIABLES =====================\nwebsocket_clients: Set[websockets.WebSocketServerProtocol] = set()\nmqtt_client = None\nlatest_movement_data = None\nlatest_heartbeat_data = {}\n# ===================== MQTT FUNCTIONS =====================\ndef on_mqtt_connect(client, userdata, flags, rc):\n    \"\"\"Handle MQTT broker connection\"\"\"",
         "detail": "src.websocket_backend",
         "documentation": {}
     },
@@ -1930,7 +1930,7 @@
         "kind": 5,
         "importPath": "src.websocket_backend",
         "description": "src.websocket_backend",
-        "peekOfCode": "MQTT_HEARTBEAT_TOPIC = f\"vision/{TEAM_ID}/heartbeat\"\n# ===================== GLOBAL VARIABLES =====================\nwebsocket_clients: Set[websockets.WebSocketServerProtocol] = set()\nmqtt_client = None\nlatest_movement_data = None\nlatest_heartbeat_data = {}\n# ===================== MQTT FUNCTIONS =====================\ndef on_mqtt_connect(client, userdata, flags, rc):\n    \"\"\"Handle MQTT broker connection\"\"\"\n    if rc == 0:",
+        "peekOfCode": "MQTT_HEARTBEAT_TOPIC = \"vision/Ghost_Hunters/heartbeat\"\n# ===================== GLOBAL VARIABLES =====================\nwebsocket_clients: Set[websockets.WebSocketServerProtocol] = set()\nmqtt_client = None\nlatest_movement_data = None\nlatest_heartbeat_data = {}\n# ===================== MQTT FUNCTIONS =====================\ndef on_mqtt_connect(client, userdata, flags, rc):\n    \"\"\"Handle MQTT broker connection\"\"\"\n    if rc == 0:",
         "detail": "src.websocket_backend",
         "documentation": {}
     },

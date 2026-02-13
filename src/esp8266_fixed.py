@@ -12,10 +12,10 @@ from machine import Pin, PWM
 from umqtt.simple import MQTTClient
 
 # ===================== CONFIGURATION =====================
-TEAM_ID = "minister"  # Must match PC client team_id
-MQTT_BROKER = "157.173.101.159"  # Replace with your VPS IP address
+TEAM_ID = "ghost_hunters"  # Must match PC client team_id
+MQTT_BROKER = "157.173.101.159"  # MQTT broker host
 MQTT_PORT = 1883
-MQTT_TOPIC = f"vision/{TEAM_ID}/movement"
+MQTT_TOPIC = "vision/Ghost_Hunters/movement"
 MQTT_CLIENT_ID = f"esp8266_{TEAM_ID}"
 
 # Servo configuration - CORRECTED VALUES

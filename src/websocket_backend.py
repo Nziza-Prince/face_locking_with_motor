@@ -11,12 +11,12 @@ import threading
 from typing import Set
 
 # ===================== CONFIGURATION =====================
-TEAM_ID = "sudoers"  # Your unique team identifier
-MQTT_BROKER_HOST = "157.173.101.159"  # Your VPS MQTT broker
+TEAM_ID = "ghost_hunters"  # Must match publisher/controller team
+MQTT_BROKER_HOST = "157.173.101.159"  # MQTT broker host
 MQTT_BROKER_PORT = 1883
 WEBSOCKET_PORT = 9002
-MQTT_TOPIC = f"vision/{TEAM_ID}/movement"
-MQTT_HEARTBEAT_TOPIC = f"vision/{TEAM_ID}/heartbeat"
+MQTT_TOPIC = "vision/Ghost_Hunters/movement"
+MQTT_HEARTBEAT_TOPIC = "vision/Ghost_Hunters/heartbeat"
 
 # ===================== GLOBAL VARIABLES =====================
 websocket_clients: Set[websockets.WebSocketServerProtocol] = set()
@@ -190,7 +190,7 @@ async def start_websocket_server():
         )
 
         print(f"✓ WebSocket server listening on ws://0.0.0.0:{WEBSOCKET_PORT}")
-        print(f"✓ Dashboard URL: ws://YOUR_VPS_IP:{WEBSOCKET_PORT}")
+        print(f"✓ Dashboard URL: ws://157.173.101.159:{WEBSOCKET_PORT}")
 
         return server
 

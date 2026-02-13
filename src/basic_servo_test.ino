@@ -9,7 +9,7 @@
 void setup() {
   Serial.begin(115200);
   delay(1000);
-  
+
   // Configure servo pin
   pinMode(SERVO_PIN, OUTPUT);
   Serial.println("Starting servo test without library...");

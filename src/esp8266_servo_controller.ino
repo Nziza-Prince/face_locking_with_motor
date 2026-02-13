@@ -1,7 +1,7 @@
 /*
   ESP8266 Face-Locked Servo Controller - Arduino Version
   Receives MQTT movement commands and controls servo accordingly
-  Team: sudoers
+  Team: ghost_hunters
 */
 
 #include <ESP8266WiFi.h>
@@ -10,18 +10,18 @@
 #include <ArduinoJson.h>
 
 // ===================== CONFIGURATION =====================
-const char* TEAM_ID = "sudoers";
-const char* MQTT_BROKER = "157.173.101.159";  // Your VPS MQTT broker
+const char* TEAM_ID = "ghost_hunters";
+const char* MQTT_BROKER = "157.173.101.159";  // MQTT broker host/IP
 const int MQTT_PORT = 1883;
-const char* MQTT_TOPIC = "vision/sudoers/movement";
-const char* MQTT_CLIENT_ID = "esp8266_sudoers";
+const char* MQTT_TOPIC = "vision/Ghost_Hunters/movement";
+const char* MQTT_CLIENT_ID = "esp8266_ghost_hunters";
 
 // WiFi configuration
 const char* WIFI_SSID = "RCA";
 const char* WIFI_PASSWORD = "@RcaNyabihu2023";
 
 // Servo configuration
-const int SERVO_PIN = D4;  // GPIO2 on NodeMCU
+const int SERVO_PIN = 5;  // GPIO5 (D1)
 Servo myservo;
 int current_angle = 90;
 int target_angle = 90;
@@ -45,6 +45,9 @@ void setup() {
   myservo.attach(SERVO_PIN);
   myservo.write(90);  // Start at center position
   Serial.println("✓ Servo initialized");
+
+  // Configure MQTT server and callback
+  setup_mqtt();
 
   // Connect to WiFi
   if (!connect_wifi()) {
